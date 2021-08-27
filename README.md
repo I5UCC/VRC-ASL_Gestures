@@ -25,7 +25,7 @@ Simply take the provided .controller file and put it inside your VRC Avatar Desc
 You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/VRChat-Avatars-3.0) to merge the controller with your existing Gesture Controller. Just make sure you Replace the Right hand and Left Hand Layers to prevent it from interfering with each other.<br/>
 
 #### 3. Set Expression Menu Items and Parameters
-Add the following Parameters to your avatars Parameters (**CASE SENSITIVE**): <br/><br/>
+Add the following parameters to your avatars parameters (**CASE SENSITIVE**): <br/><br/>
 ***For index users (WITH THE MOD):*** <br/>
 ![Index_Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
 LeftThumb(int) <br/>
