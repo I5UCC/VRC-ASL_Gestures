@@ -69,3 +69,9 @@ Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand 
 | Handgun | F Hand | W-Hand |
 | ThumbsUp | I Hand | E-Hand |
 | Y Hand | - | RockNRoll |
+
+# DISCLAIMER
+If you are using the gesture controller that is requiring the ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams): <br/>
+As with all mods, any modification to VRChat's Client or SDK can lead to a ban or other punishment.
+I will not be held responsible for any punishments that you may be given for using mods.
+***USE AT YOUR OWN RISK***
