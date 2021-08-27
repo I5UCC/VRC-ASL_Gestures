@@ -19,7 +19,7 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 
 There are two ways to do this:
 - **You dont have a Gesture Layer set in your VRC Avatar Descriptor:**<br/>
-Simply take the provided Controller file and put it inside your VRC Avatar Descriptor as shown here:<br/>
+Simply take the provided .controller file and put it inside your VRC Avatar Descriptor as shown here:<br/>
 ![Playable Layers](https://i.imgur.com/b2D9R15.png)
 - **You already have a Gesture Layer that is using Layers other then Layers for Hand gestures:**<br/>
 You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/VRChat-Avatars-3.0) to merge the controller with your existing Gesture Controller. Just make sure you Replace the Right hand and Left Hand Layers to prevent it from interfering with each other.<br/>
@@ -58,7 +58,7 @@ Make a fist with your hand. Pushing down the trigger makes a ***S-Hand***, compl
 
 ***For Oculus users:*** <br/>
 
-Basically, you make a gesture on your Dominant hand and do a "RockNRoll"(Y-Hand here) or close your fist(TRIGGER NEEDS TO BE PUSHED IN COMPLETELY) on your Support hand, it locks a specific Gesture to your Dominant hand and replaces the Y Hand animation with the new one.
+Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand here) or close your fist(TRIGGER NEEDS TO BE PUSHED IN COMPLETELY) on your support hand, it locks a specific gesture to your dominant hand and replaces the Y Hand animation with the new one.
 
 | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Base/Combo1+Support-ClosedFist) |
 | --- | --- | --- |
