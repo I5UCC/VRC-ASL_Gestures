@@ -38,3 +38,34 @@ SignsDisabled(bool) <br/><br/>
 ![Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
 ComboSignIndex(Int)<br/>
 ComboSignDisabled(Bool)<br/><br/>
+
+# Controls
+
+***For index users (WITH THE MOD):*** <br/>
+
+| Base | Thumb Position | Result |
+| --- | --- | --- |
+| Fist | A Button | R-Hand |
+| Fist | B Button | V-Hand |
+| Fist | Thumbstick | K-Hand |
+| Peace | A Button | Flat_O-Hand |
+| Peace | B Button | V-Hand |
+| Peace | Thumbstick | S-Hand |
+
+***For index users (WITHOUT THE MOD):*** <br/>
+
+Make a fist with your hand. Pushing down the trigger makes a ***S-Hand***, completely pushing down the Trigger makes a ***Flat_O-Hand***
+
+***For Oculus users:*** <br/>
+
+Basically, you make a gesture on your Dominant hand and do a "RockNRoll"(Y-Hand here) or close your fist(TRIGGER NEEDS TO BE PUSHED IN COMPLETELY) on your Support hand, it locks a specific Gesture to your Dominant hand and replaces the Y Hand animation with the new one.
+
+| Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Base/Combo1+Support-ClosedFist) |
+| --- | --- | --- |
+| Fist | Flat_O | - |
+| Open | MiddleDown | - |
+| Point | X Hand | K-Hand |
+| Victory | R Hand | U-Hand |
+| Handgun | F Hand | W-Hand |
+| ThumbsUp | I Hand | E-Hand |
+| Y Hand | - | RockNRoll |
