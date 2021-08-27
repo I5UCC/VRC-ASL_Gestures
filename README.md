@@ -13,15 +13,15 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 
 # Avatar Setup
 
-### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller:
+### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller.
 
 ### 2. Set your Gesture Layer inside your VRC Avatar Descriptor component to the provided controller file.
 
 There are two ways to do this:
-- **You dont have a Gesture Layer set in your VRC Avatar Descriptor:**<br/>
+- **You dont have a gesture layer set in your VRC Avatar Descriptor:**<br/>
 Simply take the provided .controller file and put it inside your VRC Avatar Descriptor as shown here:<br/>
 ![Playable Layers](https://i.imgur.com/b2D9R15.png)
-- **You already have a Gesture Layer that is using Layers other then Layers for Hand gestures:**<br/>
+- **You already have a gesture layer that is using layers other then layers for hand gestures:**<br/>
 You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/VRChat-Avatars-3.0) to merge the controller with your existing Gesture Controller. Just make sure you Replace the Right hand and Left Hand Layers to prevent it from interfering with each other.<br/>
 
 #### 3. Set Expression Menu Items and Parameters
