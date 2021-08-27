@@ -26,15 +26,15 @@ You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/VRChat-Avata
 
 #### 3. Set Expression Menu Items and Parameters
 Add the following Parameters to your avatars Parameters (**CASE SENSITIVE**): <br/><br/>
-*For index users (WITH THE MOD):* <br/>
+***For index users (WITH THE MOD):*** <br/>
 ![Index_Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
 LeftThumb(int) <br/>
 RightThumb(int) <br/>
 SignsDisabled(bool) <br/><br/>
-*For index users (**WITHOUT** THE MOD):* <br/>
+***For index users (WITHOUT THE MOD):*** <br/>
 ![Index_Parameters](https://i.imgur.com/JId1s05.png)<br/><br/>
 SignsDisabled(bool) <br/><br/>
-*For Oculus users:* <br/>
+***For Oculus users:*** <br/>
 ![Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
 ComboSignIndex(Int)<br/>
 ComboSignDisabled(Bool)<br/><br/>
