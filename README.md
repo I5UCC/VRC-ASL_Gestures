@@ -74,4 +74,4 @@ Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand 
 If you are using the gesture controller that is requiring the ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams): <br/>
 As with all mods, any modification to VRChat's Client or SDK can lead to a ban or other punishment.
 I will not be held responsible for any punishments that you may be given for using mods.
-***USE AT YOUR OWN RISK***
+***USE IT AT YOUR OWN RISK***
