@@ -12,6 +12,8 @@ This Repository has different Gesture Controllers that can be used, dependent on
 
 If there are any questions or suggestions about these Gesture Controller, feel free to either create a new issue or text me directly on Discord. **User: I5UCC#6781**<br/>
 
+### Download here: ![VRC-ASL_Gestures_v1.1.unitypackage](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.1/VRC-ASL_Gestures_v1.1.unitypackage)
+
 # Avatar Setup
 
 ### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller.
