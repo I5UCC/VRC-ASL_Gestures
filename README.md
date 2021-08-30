@@ -5,7 +5,7 @@ This Repository has different gesture controllers that can be used, dependent on
 - Index Controller with ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams) <br/>
 - Index Controller without any mods
 - Oculus Touch Controllers (or any other controller) Left/Right Hand Dominant versions available.
-- A combined Controller for both index and Oculus Controllers (Nice for Public avatars) (Does still require the ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams) when used with index)
+- A combined Controller for both index and Oculus Controllers (Nice for public avatars) (Does still require the ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams) when used with index)
 
 ### ***Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs.***<br/>
 ### ***The use of this requires basic unity and VRCSDK3 knowledge to modify and upload a VRChat 3.0 Avatar. The animations used in this Gesture Controller are made with Pandaa's base, but should work with basically any Avatar but might require small adjustments.***
