@@ -25,7 +25,7 @@ There are two ways to do this:
 Simply take the provided .controller file and put it inside your VRC Avatar Descriptor as shown here:<br/>
 ![Playable Layers](https://i.imgur.com/b2D9R15.png)
 - **You already have a gesture layer that is using layers other then layers for hand gestures:**<br/>
-You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/VRChat-Avatars-3.0) to merge the controller with your existing Gesture Controller. Just make sure you Replace the Right hand and Left Hand Layers to prevent it from interfering with each other.<br/>
+You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/VRChat-Avatars-3.0) to merge the controller with your existing gesture controller. Just make sure you replace the right hand and left Hand layers to prevent it from interfering with each other.<br/>
 
 #### 3. Set Expression Menu Items and Parameters
 Add the following parameters to your avatars parameters (**CASE SENSITIVE**): <br/><br/>
