@@ -56,7 +56,7 @@ ComboSignDisabled(Bool)<br/><br/>
 | Peace | B Button | V-Hand |
 | Peace | Thumbstick | K-Hand |
 | Fist | A Button | Trigger_Blendtree(T-Hand->N-Hand->M-Hand) |
-| Fist | B Button | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand |
+| Fist | B Button | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
 | Fist | Thumbstick | Trigger_Blendtree(S-Hand->E-Hand) |
 | Point | A Button | G-Hand (Closes on other hand fist+trigger down) |
 
