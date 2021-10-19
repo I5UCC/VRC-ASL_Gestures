@@ -52,12 +52,13 @@ ComboSignDisabled(Bool)<br/><br/>
 
 | Base | Thumb Position | Result |
 | --- | --- | --- |
-| Fist | A Button | R-Hand |
-| Fist | B Button | V-Hand |
-| Fist | Thumbstick | K-Hand |
-| Peace | A Button | Flat_O-Hand |
+| Peace | A Button | R-Hand |
 | Peace | B Button | V-Hand |
-| Peace | Thumbstick | S-Hand |
+| Peace | Thumbstick | K-Hand |
+| Fist | A Button | Trigger_Blendtree(T-Hand->N-Hand->M-Hand) |
+| Fist | B Button | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand |
+| Fist | Thumbstick | Trigger_Blendtree(S-Hand->E-Hand) |
+| Point | A Button | G-Hand (Closes on other hand fist+trigger down) |
 
 ***For index users (WITHOUT THE MOD):*** <br/>
 
@@ -67,7 +68,7 @@ Make a fist with your hand. Pushing down the trigger makes a ***S-Hand***, compl
 
 Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand here) or close your fist(TRIGGER NEEDS TO BE PUSHED IN COMPLETELY) on your support hand, it locks a specific gesture to your dominant hand and replaces the Y Hand animation with the new one.
 
-| Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Base/Combo1+Support-ClosedFist) |
+| Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
 | --- | --- | --- |
 | Fist | Flat_O | - |
 | Open | MiddleDown | - |
