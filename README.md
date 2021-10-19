@@ -66,7 +66,7 @@ Make a fist with your hand. Pushing down the trigger makes a ***S-Hand***, compl
 
 ***For Oculus users:*** <br/>
 
-Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand here) or close your fist(TRIGGER NEEDS TO BE PUSHED IN COMPLETELY) on your support hand, it locks a specific gesture to your dominant hand and replaces the Y Hand animation with the new one.
+Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand here) on your support hand, it locks a specific gesture to your dominant hand and replaces the Y Hand animation with the new one. Additionally you can close your fist(TRIGGER NEEDS TO BE PUSHED IN COMPLETELY) to give it another animation.
 
 | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
 | --- | --- | --- |
