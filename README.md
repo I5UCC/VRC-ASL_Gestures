@@ -46,13 +46,6 @@ SignsDisabled(bool) <br/><br/>
 ComboSignIndex(Int)<br/>
 ComboSignDisabled(Bool)<br/><br/>
 
-***Using the combined Controller***<br/>
-![Parameters](https://i.imgur.com/GXd4RTL.png)<br/><br/>
-LeftThumb(int) <br/>
-RightThumb(int) <br/>
-ComboSignIndex(Int)<br/>
-SignsDisabled(bool) <br/><br/>
-
 # Controls
 
 ***For index users (WITH THE MOD):*** <br/>
