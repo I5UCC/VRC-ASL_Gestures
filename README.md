@@ -3,8 +3,8 @@ Gesture Controllers for VRChat 3.0 Avatars to be able to do additional ASL Gestu
 
 This Repository has different gesture controllers that can be used, dependent on the controller you use:
 - Index Controller with ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams) (Might need to build the dll yourself)<br/>
-- Index Controller without any mods
-- Oculus Touch Controllers (or any other controller) Left/Right Hand Dominant versions available.
+- Index Controller without any mods (Left/Right Hand Dominant versions available).
+- Oculus Touch Controllers (Left/Right Hand Dominant versions available).
 
 ### ***Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs.***<br/>
 ### ***The use of this requires basic unity and VRCSDK3 knowledge to modify and upload a VRChat 3.0 Avatar. The animations used in this Gesture Controller are made with Pandaa's base, but should work with basically any Avatar but might require small adjustments.***
@@ -61,7 +61,13 @@ ComboSignDisabled(Bool)<br/><br/>
 
 ***For index users (WITHOUT THE MOD):*** <br/>
 
-Make a fist with your hand. Pushing down the trigger makes a ***S-Hand***, completely pushing down the Trigger makes a ***Flat_O-Hand***
+Make a fist with your hand. Pushing down the trigger makes a ***Flat_O-Hand***, completely pushing down the Trigger makes a ***Flat_B-Hand***
+| Combination | Result |
+| --- | --- |
+| Fist | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
+| OffHandClosedFist+ThumbsUp | E-Hand |
+| OffHandClosedFist+Victory | R-Hand |
+| OffHandClosedFist+Gun | G-Hand |
 
 ***For Oculus users:*** <br/>
 
