@@ -13,7 +13,7 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 
 ### ***If you use this package for a public avatar world or a sold avatar, please be sure to credit me with I5UCC#6781***
 
-### Download here: ![VRC-ASL_Gestures_v1.2.unitypackage](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.2/VRC-ASL_Gestures_v1.2.unitypackage)
+### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases)
 
 # Avatar Setup
 
