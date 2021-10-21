@@ -61,7 +61,6 @@ ComboSignDisabled(Bool)<br/><br/>
 
 ***For index users (WITHOUT THE MOD):*** <br/>
 
-Make a fist with your hand. Pushing down the trigger makes a ***Flat_O-Hand***, completely pushing down the Trigger makes a ***Flat_B-Hand***
 | Combination | Result |
 | --- | --- |
 | Fist | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
