@@ -74,13 +74,13 @@ Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand 
 
 | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
 | --- | --- | --- |
-| Fist | Flat_O | K-Hand |
-| Open | MiddleDown | MiddleDown (Backup) |
-| Point | X Hand | G-Hand |
-| Victory | R Hand | U-Hand |
-| Handgun | F Hand | W-Hand |
-| ThumbsUp | I Hand | E-Hand |
-| Y Hand | Y Hand | RockNRoll |
+| VRCFist (S Hand) | Flat_O | K-Hand |
+| VRCOpen (5 Hand) | MiddleDown | MiddleDown (Backup) |
+| VRCPoint (D Hand) | X Hand | G-Hand |
+| VRCVictory (V Hand) | R Hand | U-Hand |
+| VRCHandgun (L Hand) | F Hand | W-Hand |
+| VRCThumbsUp (VR A Hand) | I Hand | E-Hand |
+| VRCRockNRoll (Y Hand) | Y Hand | RockNRoll |
 
 # DISCLAIMER
 If you are using a gesture controller that is requiring the ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams): <br/>
