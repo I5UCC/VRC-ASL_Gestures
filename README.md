@@ -75,7 +75,7 @@ Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand 
 | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
 | --- | --- | --- |
 | VRC_Fist (S-Hand) | Flat_O-Hand | K-Hand |
-| VRC_Open (5-Hand) | MiddleDown/25-Hand | MiddleDown (Backup) |
+| VRC_Open (5-Hand) | MiddleDown/25-Hand | MiddleDown/25-Hand |
 | VRC_Point (D-Hand) | X Hand | G-Hand |
 | VRC_Victory (V-Hand) | R Hand | U-Hand |
 | VRC_Handgun (L-Hand) | F Hand | W-Hand |
