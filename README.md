@@ -9,7 +9,7 @@ This Repository has different gesture controllers that can be used, dependent on
 ### ***Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs.***<br/>
 ### ***The use of this requires basic unity and VRCSDK3 knowledge to modify and upload a VRChat 3.0 Avatar. The animations used in this Gesture Controller are made with Pandaa's base, but should work with basically any Avatar but might require small adjustments.***
 
-If there are any questions or suggestions about these Gesture Controller, feel free to either create a new issue or text me directly on Discord. **User: I5UCC#6781**<br/>
+If there are any questions or suggestions about these Gesture Controller, feel free to create a discussion on github or text me directly on Discord. **User: I5UCC#6781**. If there are any issues please create an issue on github.<br/>
 
 ### ***If you use this package for a public avatar world or a sold avatar, please be sure to credit me with I5UCC#6781***
 
