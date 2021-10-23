@@ -33,17 +33,17 @@ Add the following parameters to your avatars parameters (**CASE SENSITIVE**): <b
 
 ***For index users (WITH THE MOD):*** <br/>
 ![Index_Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
-LeftThumb(int) <br/>
-RightThumb(int) <br/>
-SignsDisabled(bool) <br/><br/>
+LeftThumb (int) <br/>
+RightThumb (int) <br/>
+SignsDisabled (bool) <br/><br/>
 
 ***For index users (WITHOUT THE MOD):*** <br/>
 ![Index_Parameters](https://i.imgur.com/JId1s05.png)<br/><br/>
-SignsDisabled(bool) <br/><br/>
+SignsDisabled (bool) <br/><br/>
 ***For Oculus users:*** <br/>
 ![Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
-ComboSignIndex(Int)<br/>
-ComboSignDisabled(Bool)<br/><br/>
+ComboSignIndex (Int)<br/>
+ComboSignDisabled (Bool)<br/><br/>
 
 # Controls
 
