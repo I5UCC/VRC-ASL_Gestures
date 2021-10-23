@@ -72,15 +72,15 @@ ComboSignDisabled(Bool)<br/><br/>
 
 Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand here) on your support hand, it locks a specific gesture to your dominant hand and replaces the Y Hand animation with the new one. Additionally you can close your fist(TRIGGER NEEDS TO BE PUSHED IN COMPLETELY) to give it another animation.
 
-| Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
-| --- | --- | --- |
-| VRC_Fist (S-Hand) | Flat_O-Hand | K-Hand |
-| VRC_Open (5-Hand) | MiddleDown/25-Hand | MiddleDown/25-Hand |
-| VRC_Point (D-Hand) | X Hand | G-Hand |
-| VRC_Victory (V-Hand) | R Hand | U-Hand |
-| VRC_Handgun (L-Hand) | F Hand | W-Hand |
-| VRC_ThumbsUp (VR-A-Hand) | I Hand | E-Hand |
-| VRC_RockNRoll (Y-Hand) | Y Hand | RockNRoll |
+VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
+| --- | --- | --- | --- |
+| Fist | S-Hand | Flat_O-Hand | K-Hand |
+| HandOpen | 5-Hand | MiddleDown/25-Hand | MiddleDown/25-Hand |
+| fingerpoint | D-Hand | X Hand | G-Hand |
+| Victory | V-Hand | R Hand | U-Hand |
+| RockNRoll | Y-Hand | Y Hand | RockNRoll |
+| HandGun | L-Hand | F Hand | W-Hand |
+| ThumbsUp | VR-A-Hand | I Hand | E-Hand |
 
 # DISCLAIMER
 If you are using a gesture controller that is requiring the ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams): <br/>
