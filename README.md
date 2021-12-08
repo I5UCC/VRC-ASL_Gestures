@@ -51,16 +51,16 @@ ComboSignDisabled (Bool)<br/><br/>
 
 | Base | Thumb Position | Result |
 | --- | --- | --- |
-| Peace | A Button | R-Hand |
-| Peace | B Button | V-Hand |
-| Peace | Thumbstick | Bent-V-Hand |
+| Victory | A Button | R-Hand |
+| Victory | B Button | V-Hand |
+| Victory | Thumbstick | Bent-V-Hand |
 | Fist | A Button | Trigger_Blendtree(S-Hand->E-Hand) |
 | Fist | B Button | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
 | Fist | Trackpad | Trigger_Blendtree(A-Hand->T-Hand) |
 | Fist | Thumbstick | Trigger_Blendtree(N-Hand->M-Hand) |
 | RockNRoll | A Button | IRLY-Hand |
 | RockNRoll | Thumbstick | Claw-Hand |
-| Point | A Button | G-Hand |
+| fingerpoint | A Button | G-Hand |
 
 ***For index users (WITHOUT THE MOD):*** <br/>
 
