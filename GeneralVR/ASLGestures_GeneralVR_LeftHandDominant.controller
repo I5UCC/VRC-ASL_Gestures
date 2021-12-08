@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -40,13 +40,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
-    m_EventTreshold: 1
-  - m_ConditionMode: 6
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
+  - m_ConditionMode: 6
+    m_ConditionEvent: GestureRight
+    m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -101,7 +101,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 15
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4259313171833792827}
@@ -141,7 +141,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: GestureLeftWeight
     m_Mirror: 0
-  m_BlendParameter: GestureRightWeight
+  m_BlendParameter: GestureLeftWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
   m_MaxThreshold: 0.3
@@ -173,7 +173,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &-6773007569020634667
 AnimatorState:
   serializedVersion: 6
@@ -199,7 +199,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1101 &-5997007365889783775
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -209,10 +209,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -243,7 +243,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: ComboSignDisabled
@@ -338,7 +338,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &-2377240198184201353
 AnimatorState:
   serializedVersion: 6
@@ -364,7 +364,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &-1630630390385661078
 AnimatorState:
   serializedVersion: 6
@@ -391,7 +391,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1101 &-1120668633700933477
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -404,7 +404,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 14
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3031190406987458986}
@@ -455,37 +455,37 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: GestureRight
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: GestureLeftWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: GestureRightWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ComboSignDisabled
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: ComboSignIndex
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: AllParts
@@ -501,7 +501,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
     m_Name: Left Hand
-    m_StateMachine: {fileID: 1107567957039803690}
+    m_StateMachine: {fileID: 1107970192013027796}
     m_Mask: {fileID: 31900000, guid: 7ff0199655202a04eb175de45a6e078a, type: 2}
     m_Motions: []
     m_Behaviours: []
@@ -513,7 +513,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
     m_Name: Right Hand
-    m_StateMachine: {fileID: 1107970192013027796}
+    m_StateMachine: {fileID: 1107567957039803690}
     m_Mask: {fileID: 31900000, guid: 903ce375d5f609d44b9f00b425d6eda9, type: 2}
     m_Motions: []
     m_Behaviours: []
@@ -2038,7 +2038,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: GestureLeftWeight
     m_Mirror: 0
-  m_BlendParameter: GestureLeftWeight
+  m_BlendParameter: GestureRightWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
   m_MaxThreshold: 0.3
@@ -2079,10 +2079,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -2113,13 +2113,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 6
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -2275,7 +2275,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102417615897719676}
@@ -2303,7 +2303,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 3
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102854891255174004}
@@ -2328,7 +2328,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102634051362411278}
@@ -2378,13 +2378,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 7
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -2415,7 +2415,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -2446,7 +2446,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102255712051916978}
@@ -2471,10 +2471,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 6
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -2530,7 +2530,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 4
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102123776793522126}
@@ -2555,10 +2555,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -2589,10 +2589,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -2751,13 +2751,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 5
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -2785,10 +2785,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -2819,7 +2819,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102587239258386122}
@@ -2844,7 +2844,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102980259968850576}
@@ -2872,7 +2872,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 10
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102076362253111130}
@@ -2897,7 +2897,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102342996781488400}
@@ -2922,13 +2922,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -2959,10 +2959,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 1
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -2990,7 +2990,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102223513403694180}
@@ -3015,7 +3015,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -3074,10 +3074,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 7
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -3133,7 +3133,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 2
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102352564750596808}
@@ -3158,10 +3158,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -3195,7 +3195,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 5
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 4
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102346317439610126}
@@ -3220,7 +3220,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 4
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102786669413906982}
@@ -3248,7 +3248,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 12
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102038132507400030}
@@ -3329,7 +3329,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 1
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102573989881413714}
@@ -3357,7 +3357,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 8
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102131681599183020}
@@ -3385,7 +3385,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 11
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102525564602276414}
@@ -3410,10 +3410,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 4
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -3466,10 +3466,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -3578,10 +3578,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -3609,7 +3609,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102220978167449952}
@@ -3659,7 +3659,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102610197087719472}
@@ -3684,7 +3684,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102015454461988982}
@@ -3709,7 +3709,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -3740,7 +3740,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102925451483320186}
@@ -3765,7 +3765,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102855029328852216}
@@ -3790,10 +3790,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 2
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -3821,7 +3821,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -3852,7 +3852,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102698055534366150}
@@ -3877,13 +3877,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 4
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -3914,7 +3914,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -3970,7 +3970,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -4001,7 +4001,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102269712680567844}
@@ -4026,13 +4026,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 2
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -4063,7 +4063,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 7
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 4
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102946101567418340}
@@ -4141,7 +4141,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 6
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102516634010670720}
@@ -4222,7 +4222,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 9
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102629629518896600}
@@ -4247,7 +4247,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 4
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102313793934679526}
@@ -4272,7 +4272,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -4319,7 +4319,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102038132507400030
 AnimatorState:
   serializedVersion: 6
@@ -4346,7 +4346,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102069462340593210
 AnimatorState:
   serializedVersion: 6
@@ -4399,7 +4399,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102079083794675682
 AnimatorState:
   serializedVersion: 6
@@ -4426,7 +4426,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102123776793522126
 AnimatorState:
   serializedVersion: 6
@@ -4453,7 +4453,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102131681599183020
 AnimatorState:
   serializedVersion: 6
@@ -4480,7 +4480,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102151203558476982
 AnimatorState:
   serializedVersion: 6
@@ -4507,7 +4507,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102206801987528532
 AnimatorState:
   serializedVersion: 6
@@ -4533,7 +4533,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102216745446540684
 AnimatorState:
   serializedVersion: 6
@@ -4560,7 +4560,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102220978167449952
 AnimatorState:
   serializedVersion: 6
@@ -4586,7 +4586,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102223513403694180
 AnimatorState:
   serializedVersion: 6
@@ -4612,7 +4612,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102224574226870890
 AnimatorState:
   serializedVersion: 6
@@ -4638,7 +4638,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102255712051916978
 AnimatorState:
   serializedVersion: 6
@@ -4664,7 +4664,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102269712680567844
 AnimatorState:
   serializedVersion: 6
@@ -4690,7 +4690,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102295850850822420
 AnimatorState:
   serializedVersion: 6
@@ -4717,7 +4717,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102313793934679526
 AnimatorState:
   serializedVersion: 6
@@ -4743,7 +4743,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102342996781488400
 AnimatorState:
   serializedVersion: 6
@@ -4769,7 +4769,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102346317439610126
 AnimatorState:
   serializedVersion: 6
@@ -4823,7 +4823,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102417615897719676
 AnimatorState:
   serializedVersion: 6
@@ -4849,7 +4849,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102472811866488948
 AnimatorState:
   serializedVersion: 6
@@ -4875,7 +4875,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102494571508354862
 AnimatorState:
   serializedVersion: 6
@@ -4955,7 +4955,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102546433959648856
 AnimatorState:
   serializedVersion: 6
@@ -5035,7 +5035,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102573989881413714
 AnimatorState:
   serializedVersion: 6
@@ -5062,7 +5062,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102587239258386122
 AnimatorState:
   serializedVersion: 6
@@ -5088,7 +5088,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102610197087719472
 AnimatorState:
   serializedVersion: 6
@@ -5114,7 +5114,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102629629518896600
 AnimatorState:
   serializedVersion: 6
@@ -5167,7 +5167,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102698055534366150
 AnimatorState:
   serializedVersion: 6
@@ -5193,7 +5193,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102711767551534732
 AnimatorState:
   serializedVersion: 6
@@ -5219,7 +5219,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102712918967198156
 AnimatorState:
   serializedVersion: 6
@@ -5245,7 +5245,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102721518656945930
 AnimatorState:
   serializedVersion: 6
@@ -5299,7 +5299,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102766715558962252
 AnimatorState:
   serializedVersion: 6
@@ -5326,7 +5326,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102773295092061210
 AnimatorState:
   serializedVersion: 6
@@ -5352,7 +5352,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102786669413906982
 AnimatorState:
   serializedVersion: 6
@@ -5378,7 +5378,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102793691554635598
 AnimatorState:
   serializedVersion: 6
@@ -5405,7 +5405,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102796918787457626
 AnimatorState:
   serializedVersion: 6
@@ -5458,7 +5458,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102854891255174004
 AnimatorState:
   serializedVersion: 6
@@ -5485,7 +5485,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102855029328852216
 AnimatorState:
   serializedVersion: 6
@@ -5511,7 +5511,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102910455220012622
 AnimatorState:
   serializedVersion: 6
@@ -5563,7 +5563,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102946101567418340
 AnimatorState:
   serializedVersion: 6
@@ -5643,7 +5643,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102971303449907880
 AnimatorState:
   serializedVersion: 6
@@ -5669,7 +5669,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &1102980259968850576
 AnimatorState:
   serializedVersion: 6
@@ -5695,7 +5695,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &1102986552953275610
 AnimatorState:
   serializedVersion: 6
@@ -5722,7 +5722,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1107 &1107406222543947020
 AnimatorStateMachine:
   serializedVersion: 6
@@ -5749,7 +5749,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Left Hand
+  m_Name: Right Hand
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102786669413906982}
@@ -5865,7 +5865,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Right Hand
+  m_Name: Left Hand
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102313793934679526}
@@ -6057,10 +6057,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
     m_ConditionEvent: ComboSignIndex
@@ -6091,13 +6091,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: GestureRightWeight
+    m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -6144,7 +6144,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!1102 &3003680753603873845
 AnimatorState:
   serializedVersion: 6
@@ -6198,7 +6198,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureLeftWeight
+  m_TimeParameter: GestureRightWeight
 --- !u!1102 &3256142577943643902
 AnimatorState:
   serializedVersion: 6
@@ -6273,7 +6273,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
 --- !u!114 &4320787695052284761
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6307,7 +6307,7 @@ AnimatorStateTransition:
     m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 13
   - m_ConditionMode: 7
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3003680753603873845}
@@ -6353,10 +6353,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureRight
+    m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: ComboSignDisabled
@@ -6384,7 +6384,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: GestureLeft
+    m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: ComboSignDisabled
@@ -6449,4 +6449,4 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: GestureRightWeight
+  m_TimeParameter: GestureLeftWeight
