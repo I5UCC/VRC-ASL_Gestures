@@ -56,7 +56,7 @@ ComboSignDisabled (Bool)<br/><br/>
 | Victory | B Button | V-Hand |
 | Victory | Thumbstick | Bent-V-Hand |
 | Fist | A Button | Trigger_Blendtree(S-Hand->E-Hand) |
-| Fist | B Button | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
+| Fist | B Button | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand(Bent)) |
 | Fist | Trackpad | Trigger_Blendtree(A-Hand->T-Hand) |
 | Fist | Thumbstick | Trigger_Blendtree(N-Hand->M-Hand) |
 | RockNRoll | A Button | IRLY-Hand |
@@ -78,7 +78,7 @@ Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand 
 
 VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
 | --- | --- | --- | --- |
-| Neutral | C-Hand | Claw-Hand | Flat-B |
+| Neutral | C-Hand | Claw-Hand | Flat-B(Bent) |
 | Fist | S-Hand | Flat_O-Hand | K-Hand |
 | HandOpen | 5-Hand | 25-Hand | 25-Hand |
 | fingerpoint | D-Hand | X Hand | G-Hand |
