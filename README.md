@@ -41,7 +41,8 @@ SignsDisabled (bool) <br/><br/>
 ![Index_Parameters](https://i.imgur.com/JId1s05.png)<br/><br/>
 SignsDisabled (bool) <br/><br/>
 ***For Oculus users:*** <br/>
-![Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
+
+![Parameters](https://user-images.githubusercontent.com/43730681/145126521-0de7f8fd-56a4-4f6f-91da-6fddc51549dc.png)<br/><br/>
 ComboSignIndex (Int)<br/>
 ComboSignDisabled (Bool)<br/><br/>
 
