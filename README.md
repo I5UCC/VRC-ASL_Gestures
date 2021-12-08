@@ -83,7 +83,7 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 | Victory | V-Hand | R Hand | U-Hand |
 | RockNRoll | Y-Hand | Y Hand | RockNRoll |
 | HandGun | L-Hand | F Hand | W-Hand |
-| ThumbsUp | VR-A-Hand | I Hand | E-Hand |
+| ThumbsUp | CL-A-Open | I Hand | E-Hand |
 
 # DISCLAIMER
 If you are using a gesture controller that is requiring the ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams): <br/>
