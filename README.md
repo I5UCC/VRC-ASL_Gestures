@@ -2,9 +2,9 @@
 Gesture Controllers for VRChat 3.0 Avatars to be able to do additional ASL Gestures, depending on the used controller.
 
 This Repository has different gesture controllers that can be used, dependent on the controller you use:
-- Index Controller with ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams) (Might need to build the dll yourself)<br/>
+- Index Controller with ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams) (Might need to build the dll yourself, or use the dll provided by me in the ![releases section](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest) (May be outdated))<br/>
 - Index Controller without any mods (Left/Right Hand Dominant versions available) (early state/figuring things out).
-- Oculus Touch Controllers (Left/Right Hand Dominant versions available).
+- (Oculus Touch/WMR/Vive)-Controllers (Left/Right Hand Dominant versions available).
 
 ### ***Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs.***<br/>
 ### ***The use of this requires basic unity and VRCSDK3 knowledge to modify and upload a VRChat 3.0 Avatar. The animations used in this Gesture Controller are made with Pandaa's base, but should work with basically any Avatar but might require small adjustments.***
@@ -13,7 +13,7 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 
 ### ***If you use this package for a public avatar world or a sold avatar, please be sure to credit me with I5UCC#6781***
 
-### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases)
+### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
 # Avatar Setup
 
@@ -41,7 +41,8 @@ SignsDisabled (bool) <br/><br/>
 ![Index_Parameters](https://i.imgur.com/JId1s05.png)<br/><br/>
 SignsDisabled (bool) <br/><br/>
 ***For Oculus users:*** <br/>
-![Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
+
+![Parameters](https://user-images.githubusercontent.com/43730681/145126521-0de7f8fd-56a4-4f6f-91da-6fddc51549dc.png)<br/><br/>
 ComboSignIndex (Int)<br/>
 ComboSignDisabled (Bool)<br/><br/>
 
@@ -51,13 +52,16 @@ ComboSignDisabled (Bool)<br/><br/>
 
 | Base | Thumb Position | Result |
 | --- | --- | --- |
-| Peace | A Button | R-Hand |
-| Peace | B Button | V-Hand |
-| Peace | Thumbstick | K-Hand |
-| Fist | A Button | Trigger_Blendtree(T-Hand->N-Hand->M-Hand) |
+| Victory | A Button | R-Hand |
+| Victory | B Button | V-Hand |
+| Victory | Thumbstick | Bent-V-Hand |
+| Fist | A Button | Trigger_Blendtree(S-Hand->E-Hand) |
 | Fist | B Button | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
-| Fist | Thumbstick | Trigger_Blendtree(S-Hand->E-Hand) |
-| Point | A Button | G-Hand (Closes on other hand fist+trigger down) |
+| Fist | Trackpad | Trigger_Blendtree(A-Hand->T-Hand) |
+| Fist | Thumbstick | Trigger_Blendtree(N-Hand->M-Hand) |
+| RockNRoll | A Button | IRLY-Hand |
+| RockNRoll | Thumbstick | Claw-Hand |
+| fingerpoint | A Button | G-Hand |
 
 ***For index users (WITHOUT THE MOD):*** <br/>
 
@@ -80,7 +84,7 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 | Victory | V-Hand | R Hand | U-Hand |
 | RockNRoll | Y-Hand | Y Hand | RockNRoll |
 | HandGun | L-Hand | F Hand | W-Hand |
-| ThumbsUp | VR-A-Hand | I Hand | E-Hand |
+| ThumbsUp | CL-A-Open | I Hand | E-Hand |
 
 # DISCLAIMER
 If you are using a gesture controller that is requiring the ![VRCThumbParams-MOD](https://github.com/benaclejames/VRCThumbParams): <br/>
