@@ -78,6 +78,7 @@ Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand 
 
 VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
 | --- | --- | --- | --- |
+| Neutral | C-Hand | Claw-Hand | Flat-B |
 | Fist | S-Hand | Flat_O-Hand | K-Hand |
 | HandOpen | 5-Hand | 25-Hand | 25-Hand |
 | fingerpoint | D-Hand | X Hand | G-Hand |
