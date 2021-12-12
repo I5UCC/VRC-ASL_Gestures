@@ -68,10 +68,12 @@ ComboSignDisabled (Bool)<br/><br/>
 
 | Combination | Result |
 | --- | --- |
-| Fist | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
+| OffHandClosedFist+Fist | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
 | OffHandClosedFist+ThumbsUp | E-Hand |
 | OffHandClosedFist+Victory | R-Hand |
 | OffHandClosedFist+Gun | G-Hand |
+| OffHandClosedFist+Neutral | Claw Hand |
+| OffHandClosedFist+RnR | IRLY Hand |
 
 ***For Oculus users:*** <br/>
 
@@ -79,7 +81,7 @@ Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand 
 
 VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Combo2+Support-Y-Hand) | Combo2 <br/>(Combo1+Support-ClosedFist) |
 | --- | --- | --- | --- |
-| Neutral | C-Hand | Claw-Hand | Flat-B(Bent) |
+| Neutral | Neutral | Claw-Hand | Flat-B(Bent) |
 | Fist | S-Hand | Flat_O-Hand | K-Hand |
 | HandOpen | 5-Hand | 25-Hand | 25-Hand |
 | fingerpoint | D-Hand | X Hand | G-Hand |
