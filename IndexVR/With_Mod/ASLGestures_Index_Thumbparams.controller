@@ -68,8 +68,8 @@ MonoBehaviour:
   trackingHip: 0
   trackingLeftFoot: 0
   trackingRightFoot: 0
-  trackingLeftFingers: 0
-  trackingRightFingers: 2
+  trackingLeftFingers: 2
+  trackingRightFingers: 0
   trackingEyes: 0
   trackingMouth: 0
   debugString: 
@@ -3570,9 +3570,9 @@ AnimatorStateMachine:
   - {fileID: 2250459455226111687}
   - {fileID: 7406741143326181260}
   - {fileID: 7855746482406900572}
+  - {fileID: 7403671968533564255}
   - {fileID: 8394056935591114666}
   - {fileID: -386006595177957871}
-  - {fileID: 7403671968533564255}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []

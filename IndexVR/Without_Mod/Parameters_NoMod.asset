@@ -17,3 +17,7 @@ MonoBehaviour:
     valueType: 2
     saved: 1
     defaultValue: 0
+  - name: SignIndex
+    valueType: 0
+    saved: 0
+    defaultValue: 0
