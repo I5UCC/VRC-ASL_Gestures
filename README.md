@@ -83,7 +83,7 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 | --- | --- | --- | --- |
 | Neutral | Neutral | Claw-Hand | Flat-B(Bent) |
 | Fist | S-Hand | Flat_O-Hand | K-Hand |
-| HandOpen | 5-Hand | 25-Hand | 25-Hand |
+| HandOpen | 5-Hand | Open-8-Hand | Open-8-Hand |
 | fingerpoint | D-Hand | X Hand | G-Hand |
 | Victory | V-Hand | R Hand | U-Hand |
 | RockNRoll | Y-Hand | Y Hand | RockNRoll |
