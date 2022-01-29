@@ -103,4 +103,4 @@ I will not be held responsible for any punishments that you may be given for usi
 
 Of course this project is free, but if you want to support my work, I would very highly appreciate it! Leave a nice message if you want too!
 
-[![Donate with PayPal](https://user-images.githubusercontent.com/43730681/151671233-4df70142-ac42-4fc5-a14e-09660a830373.png)](https://www.paypal.com/donate/?hosted_button_id=FNDC2U5UH2VBJ)]
+[![Donate with PayPal](https://user-images.githubusercontent.com/43730681/151671233-4df70142-ac42-4fc5-a14e-09660a830373.png)](https://www.paypal.com/donate/?hosted_button_id=FNDC2U5UH2VBJ)
