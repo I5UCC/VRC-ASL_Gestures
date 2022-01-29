@@ -57,10 +57,10 @@ ComboSignDisabled (Bool)<br/><br/>
 | Neutral | B Button | Claw Hand |
 | Neutral | Trackpad | [None/Addable] |
 | Neutral | Thumbstick | [None/Addable] |
-| Fist | A Button | Trigger_Blendtree(S-Hand->E-Hand) |
-| Fist | B Button | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand(Bent)) |
-| Fist | Trackpad | Trigger_Blendtree(A-Hand->T-Hand) |
-| Fist | Thumbstick | Trigger_Blendtree(N-Hand->M-Hand) |
+| Fist | A Button | Trigger(S-Hand->E-Hand) |
+| Fist | B Button | Trigger(Flat_O-Hand->Flat_B-Hand(Bent)) |
+| Fist | Trackpad | Trigger(A-Hand->T-Hand) |
+| Fist | Thumbstick | Trigger(N-Hand->M-Hand) |
 | Fingerpoint | A Button | G-Hand |
 | Fingerpoint | A Button | X-Hand |
 | Fingerpoint | Trackpad | [None/Addable] |
@@ -78,7 +78,7 @@ ComboSignDisabled (Bool)<br/><br/>
 
 | Combination | Result |
 | --- | --- |
-| OffHandClosedFist+Fist | Trigger_Blendtree(Flat_O-Hand->Flat_B-Hand) |
+| OffHandClosedFist+Fist | Trigger(Flat_O-Hand->Flat_B-Hand) |
 | OffHandClosedFist+ThumbsUp | E-Hand |
 | OffHandClosedFist+Victory | R-Hand |
 | OffHandClosedFist+Gun | G-Hand |
