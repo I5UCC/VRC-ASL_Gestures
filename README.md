@@ -55,24 +55,24 @@ ComboSignDisabled (Bool)<br/><br/>
 | --- | --- | --- |
 | Neutral | A Button | C Hand |
 | Neutral | B Button | Claw Hand |
-| Neutral | Trackpad | [None/Addable] |
-| Neutral | Thumbstick | [None/Addable] |
+| Neutral | Trackpad | *[None/Addable]* |
+| Neutral | Thumbstick | *[None/Addable]* |
 | Fist | A Button | Trigger(S-Hand->E-Hand) |
 | Fist | B Button | Trigger(Flat_O-Hand->Flat_B-Hand(Bent)) |
 | Fist | Trackpad | Trigger(A-Hand->T-Hand) |
 | Fist | Thumbstick | Trigger(N-Hand->M-Hand) |
 | Fingerpoint | A Button | G-Hand |
 | Fingerpoint | A Button | X-Hand |
-| Fingerpoint | Trackpad | [None/Addable] |
+| Fingerpoint | Trackpad | *[None/Addable]* |
 | Fingerpoint | Thumbstick | K-Hand |
 | Victory | A Button | R-Hand |
 | Victory | B Button | V-Hand |
-| Victory | TrackPad | [None/Addable] |
+| Victory | TrackPad | *[None/Addable]* |
 | Victory | Thumbstick | Bent-V-Hand |
 | RockNRoll | A Button | IRLY-Hand |
 | RockNRoll | B Button | W-Hand |
-| RockNRoll | TrackPad | [None/Addable] |
-| RockNRoll | Thumbstick | [None/Addable] |
+| RockNRoll | TrackPad | *[None/Addable]* |
+| RockNRoll | Thumbstick | *[None/Addable]* |
 
 ***For index users (WITHOUT THE MOD):*** <br/>
 
