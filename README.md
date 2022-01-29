@@ -99,8 +99,6 @@ As with all mods, any modification to VRChat's Client or SDK can lead to a ban o
 I will not be held responsible for any punishments that you may be given for using mods.
 ***USE IT AT YOUR OWN RISK***
 
-# DONATE
-
 Of course, this project is free, but if you want to support my work, I would very highly appreciate it and it keeps me going! Leave a nice message if you want to!
 
 [![Donate with PayPal](https://user-images.githubusercontent.com/43730681/151671233-4df70142-ac42-4fc5-a14e-09660a830373.png)](https://www.paypal.com/donate/?hosted_button_id=FNDC2U5UH2VBJ)
