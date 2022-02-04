@@ -112,5 +112,5 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 # !! DISCLAIMER !!
 If you are using a gesture controller that is requiring ![VRCThumbParams](https://github.com/benaclejames/VRCThumbParams): <br/>
 As with all mods, any modification to VRChat's Client or SDK can lead to a ban or other punishment.
-I will not be held responsible for any punishments that you may be given for using mods. ***USE IT AT YOUR OWN RISK***
-Everything else but those controllers don't modify VRChat's Client or SDK and are safe to use.
+I will not be held responsible for any punishments that you may be given for using mods. ***USE IT AT YOUR OWN RISK*** <br/>
+The controllers itself don't modify VRChat's Client or SDK and are safe to use.
