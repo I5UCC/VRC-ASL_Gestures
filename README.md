@@ -32,13 +32,13 @@ You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-
 #### 3. Set Expression Menu Items and Parameters
 Add the following parameters to your avatars parameters (**CASE SENSITIVE**): <br/><br/>
 
-***For index users (WITH THE MOD):*** <br/>
+***For index users (WITH VRCThumbParams):*** <br/>
 ![Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
 LeftThumb (int) <br/>
 RightThumb (int) <br/>
 SignsDisabled (bool) <br/><br/>
 
-***For index users (WITHOUT THE MOD):*** <br/>
+***For index users (WITHOUT VRCThumbParams):*** <br/>
 ![Parameters](https://user-images.githubusercontent.com/43730681/145733626-67525125-6fb3-4c14-9921-012d5bfa8892.png)<br/><br/>
 SignsDisabled (bool) <br/>
 SignIndex (int) <br/><br/>
@@ -75,7 +75,7 @@ ComboSignDisabled (Bool)<br/><br/>
 | RockNRoll | TrackPad | *[None/Addable]* |
 | RockNRoll | Thumbstick | *[None/Addable]* |
 
-***For index users (WITHOUT THE MOD):*** <br/>
+***For index users (WITHOUT VRCThumbParams):*** <br/>
 
 | Combination | Result |
 | --- | --- |
