@@ -7,7 +7,7 @@ This Repository has different gesture controllers that can be used, dependent on
   - without any additional programs (Left/Right Hand Dominant versions available) ***(Not Recommended)***.
 - GeneralVR (made for Oculus Touch) 
   - without any additional programs (Left/Right Hand Dominant versions available).
-  - ~~using ![VRCThumbParamsOSC-Touch](https://github.com/I5UCC/VRCThumbParamsOSC)~~ ***soon***
+  - ~~using ![VRCThumbParamsOSC-Touch](https://github.com/I5UCC/VRCThumbParamsOSC)~~ ***soon^{TM}***
 
 ### ***!! Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs. !!***<br/>
 ### ***!! The use of this requires basic unity and VRCSDK3 knowledge to modify and upload a VRChat 3.0 Avatar. The animations used in this Gesture Controller are made with Pandaa's base, but should work with basically any Avatar but might require small adjustments for more complex signs. !!***
