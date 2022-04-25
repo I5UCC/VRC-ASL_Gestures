@@ -52,7 +52,7 @@ ComboSignDisabled (Bool)<br/><br/>
 
 # Controls
 
-***For index users (WITH THE MOD):*** <br/>
+***For index users (WITH VRCThumbParams):*** <br/>
 
 | Base | Thumb Position | Result |
 | --- | --- | --- |
