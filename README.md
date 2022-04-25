@@ -6,8 +6,8 @@ This Repository has different gesture controllers that can be used, dependent on
   - using ![VRCThumbParamsOSC-Index](https://github.com/I5UCC/VRCThumbParamsOSC) ~~or ![VRCThumbParamsMOD](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.4/ThumbParams.dll) (Discontinued)~~
   - without any additional programs (Left/Right Hand Dominant versions available) ***(Not Recommended)***.
 - GeneralVR (made for Oculus Touch) 
-  - without any additional programs (Left/Right Hand Dominant versions available).
   - ~~using ![VRCThumbParamsOSC-Touch](https://github.com/I5UCC/VRCThumbParamsOSC)~~ ***soonTM***
+  - without any additional programs (Left/Right Hand Dominant versions available).
 
 ### ***!! Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs. !!***<br/>
 ### ***!! The use of this requires basic unity and VRCSDK3 knowledge to modify and upload a VRChat 3.0 Avatar. The animations used in this Gesture Controller are made with Pandaa's base, but should work with basically any Avatar but might require small adjustments for more complex signs. !!***
