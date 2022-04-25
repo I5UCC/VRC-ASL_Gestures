@@ -3,7 +3,7 @@ Gesture Controllers for VRChat 3.0 Avatars to be able to do additional ASL Gestu
 
 This Repository has different gesture controllers that can be used, dependent on the controller you use:
 - Index Controller
-  - using ![VRCThumbParamsOSC-Index](https://github.com/I5UCC/VRCThumbParamsOSC) or ~~![VRCThumbParamsMOD](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.4/ThumbParams.dll) (Discontinued)~~
+  - using ![VRCThumbParamsOSC-Index](https://github.com/I5UCC/VRCThumbParamsOSC) ~~or ![VRCThumbParamsMOD](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.4/ThumbParams.dll) (Discontinued)~~
   - without any additional programs (Left/Right Hand Dominant versions available) ***(Not Recommended)***.
 - GeneralVR (made for Oculus Touch) 
   - without any additional programs (Left/Right Hand Dominant versions available).
