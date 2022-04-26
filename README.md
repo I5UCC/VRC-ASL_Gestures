@@ -44,7 +44,15 @@ SignsDisabled (bool) <br/><br/>
 ![Parameters](https://user-images.githubusercontent.com/43730681/145733626-67525125-6fb3-4c14-9921-012d5bfa8892.png)<br/><br/>
 SignsDisabled (bool) <br/>
 SignIndex (int) <br/><br/>
-***For Oculus users:*** <br/>
+
+***For Oculus users (WITH VRCThumbParams):*** <br/>
+![Parameters](https://user-images.githubusercontent.com/43730681/165364957-8c02f36b-b4fd-4133-b781-69d11363ccf0.png)
+RightThumb (Int)<br/>
+LeftThumb (Int)<br/>
+RightTrigger (Float)<br/>
+LeftTrigger (Float)<br/><br/>
+
+***For Oculus users (WITHOUT VRCThumbParams):*** <br/>
 
 ![Parameters](https://user-images.githubusercontent.com/43730681/145126521-0de7f8fd-56a4-4f6f-91da-6fddc51549dc.png)<br/><br/>
 ComboSignIndex (Int)<br/>
