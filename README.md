@@ -65,7 +65,7 @@ ComboSignDisabled (Bool)<br/><br/>
 | Fist | Trackpad | Trigger(A-Hand->T-Hand) |
 | Fist | Thumbstick | Trigger(N-Hand->M-Hand) |
 | Fingerpoint | A Button | G-Hand |
-| Fingerpoint | A Button | X-Hand |
+| Fingerpoint | B Button | X-Hand |
 | Fingerpoint | Trackpad | *[None/Addable]* |
 | Fingerpoint | Thumbstick | K-Hand |
 | Victory | A Button | R-Hand |
@@ -87,6 +87,28 @@ ComboSignDisabled (Bool)<br/><br/>
 | OffHandClosedFist+Gun | G-Hand |
 | OffHandClosedFist+Neutral | Claw Hand |
 | OffHandClosedFist+RnR | IRLY Hand |
+
+***For Oculus users (WITH VRCThumbParams):*** <br/>
+
+| Base | Thumb Position | Result |
+| --- | --- | --- |
+| Neutral | Not Touching | C Hand |
+| Neutral | A Button | Open-8-Hand |
+| Neutral | B Button | Rested-Hand |
+| Neutral | Thumbstick | Claw Hand |
+| Fist | A Button | Trigger(Flat_O-Hand->Flat_B-Hand(Bent)) |
+| Fist | B Button | Trigger(S-Hand->E-Hand) |
+| Fist | Thumbstick | Trigger(I-Hand->RnR-Hand) |
+| Fingerpoint | A Button | X-Hand |
+| Fingerpoint | B Button | D-Hand |
+| Fingerpoint | Thumbstick | K-Hand |
+| Victory | A Button | R-Hand |
+| Victory | B Button | V-Hand |
+| Victory | Thumbstick | U-Hand |
+| RockNRoll | A Button | W-Hand |
+| RockNRoll | B Button | Y-Hand |
+| RockNRoll | Thumbstick | F-Hand |
+| ThumbsUp | Not touching | Trigger(G-Hand) |
 
 ***For Oculus users (WITHOUT VRCThumbParams):*** <br/>
 
