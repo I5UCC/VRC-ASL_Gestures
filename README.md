@@ -6,7 +6,7 @@ This Repository has different gesture controllers that can be used, dependent on
   - using ![VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) or ![VRCThumbParams](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.3.4/ThumbParams.dll) by ![benaclejames](https://github.com/benaclejames) (Discontinued?/Might stop working at some point)
   - without any additional programs (Left/Right Hand Dominant versions available) ***(Not Recommended)***.
 - GeneralVR (made for Oculus Touch) 
-  - ~~using ![VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC)~~ ***soonTM***
+  - using ![VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC)
   - without any additional programs (Left/Right Hand Dominant versions available).
 
 ### ***!! Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs. !!***<br/>
