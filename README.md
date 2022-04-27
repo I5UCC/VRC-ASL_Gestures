@@ -10,9 +10,6 @@ This Repository has different gesture controllers that can be used, dependent on
   - using ![VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background
   - without any additional programs (Left/Right Hand Dominant versions available).
 
-### ***!! Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs. !!***<br/>
-### ***!! The use of this requires basic unity and VRCSDK3 knowledge to modify and upload a VRChat 3.0 Avatar. The animations used in this Gesture Controller are made with Pandaa's base, but should work with basically any Avatar but might require small adjustments for more complex signs. !!***
-
 If there are any questions or suggestions about these Gesture Controller, feel free to create a discussion in this repository or text me directly on Discord. **User: I5UCC#6781**. If there are any issues please create an issue!<br/>
 
 ### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
@@ -20,6 +17,8 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 # Avatar Setup
 
 ### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller.
+
+![image](https://user-images.githubusercontent.com/43730681/165518981-482d3ced-3fa0-45e8-af09-f0ac24583443.png)
 
 ### 2. Set your Gesture Layer inside your VRC Avatar Descriptor component to the provided controller file.
 
@@ -135,3 +134,10 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 
 # Modifing/Adding Gestures
 ### TO BE ADDED
+
+# FAQ
+
+- Why cant people see my signs sometimes?
+  - Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs, make sure that is the case.
+- The animations dont fit my Avatar.
+  - The animations used in this Gesture Controller are made with Pandaa's base, but should work with basically any Avatar but might require small adjustments for more complex signs like E-Hand or R-Hand.
