@@ -47,11 +47,12 @@ SignsDisabled (bool) <br/>
 SignIndex (int) <br/><br/>
 
 ***For Oculus users (WITH VRCThumbParams):*** <br/>
-![Parameters](https://user-images.githubusercontent.com/43730681/165364957-8c02f36b-b4fd-4133-b781-69d11363ccf0.png)<br/><br/>
+![image](https://user-images.githubusercontent.com/43730681/165517573-d065f543-563c-4080-970d-185abbe1ec9f.png)<br/><br/>
 RightThumb (Int)<br/>
 LeftThumb (Int)<br/>
 RightTrigger (Float)<br/>
 LeftTrigger (Float)<br/><br/>
+SignsDisabled (bool) <br/>
 
 ***For Oculus users (WITHOUT VRCThumbParams):*** <br/>
 
