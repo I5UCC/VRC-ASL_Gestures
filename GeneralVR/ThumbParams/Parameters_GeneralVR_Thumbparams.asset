@@ -13,19 +13,23 @@ MonoBehaviour:
   m_Name: Parameters_GeneralVR_Thumbparams
   m_EditorClassIdentifier: 
   parameters:
+  - name: LeftThumb
+    valueType: 0
+    saved: 0
+    defaultValue: 0
   - name: RightThumb
     valueType: 0
+    saved: 0
+    defaultValue: 0
+  - name: LeftTrigger
+    valueType: 1
     saved: 0
     defaultValue: 0
   - name: RightTrigger
     valueType: 1
     saved: 0
     defaultValue: 0
-  - name: LeftThumb
-    valueType: 0
-    saved: 0
-    defaultValue: 0
-  - name: LeftTrigger
-    valueType: 1
+  - name: SignsDisabled
+    valueType: 2
     saved: 0
     defaultValue: 0
