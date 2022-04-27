@@ -15,8 +15,6 @@ This Repository has different gesture controllers that can be used, dependent on
 
 If there are any questions or suggestions about these Gesture Controller, feel free to create a discussion in this repository or text me directly on Discord. **User: I5UCC#6781**. If there are any issues please create an issue!<br/>
 
-### ***If you use this package for a public avatar world or a sold avatar, please be sure to credit me with I5UCC#6781***
-
 ### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
 # Avatar Setup
