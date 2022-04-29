@@ -128,7 +128,7 @@ ComboSignDisabled (Bool)<br/><br/>
 | RockNRoll | Thumbstick | F-Hand |
 | ThumbsUp | Not touching | Trigger(G-Hand) |
 
-### For Oculus users (WITHOUT VRCThumbParams): <br/>
+### For Oculus users (WITHOUT VRCThumbParams):
 
 Basically, you make a gesture on your dominant hand and do a "RockNRoll"(Y-Hand here) on your support hand, it locks a specific gesture to your dominant hand and replaces the Y Hand animation with the new one. Additionally you can close your fist(TRIGGER NEEDS TO BE PUSHED IN COMPLETELY) to give it another animation.
 
