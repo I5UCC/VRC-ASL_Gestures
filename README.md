@@ -26,6 +26,17 @@ There are two ways to do this:
 - **You dont have a gesture layer set in your VRC Avatar Descriptor:**<br/>
 Simply take the provided .controller file and put it inside your VRC Avatar Descriptor as shown here:<br/>
 ![Playable Layers](https://i.imgur.com/b2D9R15.png)
+  - ***File for Index users (WITH VRCThumbParams):*** <br/>
+    - VRC-ASL_Gestures/IndexVR/ThumbParams/ASLGestures_Index_Thumbparams.controller <br/>
+  - ***File for Index users (WITHOUT VRCThumbParams):*** <br/>
+    - VRC-ASL_Gestures/IndexVR/Without/ASLGestures_Index_NoMod_RightHandDominant.controller
+    - VRC-ASL_Gestures/IndexVR/Without/ASLGestures_Index_NoMod_LeftHandDominant.controller <br/>
+  - ***File for Oculus users (WITH VRCThumbParams):*** <br/>
+    - VRC-ASL_Gestures/GeneralVR/ThumbParams/ASLGestures_GeneralVR_Thumbparams.controller <br/>
+  - ***File for Oculus users (WITHOUT VRCThumbParams):*** <br/>
+    - VRC-ASL_Gestures/GeneralVR/Without/ASLGestures_GeneralVR_LeftHandDominant.controller
+    - VRC-ASL_Gestures/GeneralVR/Without/ASLGestures_GeneralVR_RightHandDominant.controller
+
 - **You already have a gesture layer that is using layers other then layers for hand gestures:**<br/>
 You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) to merge the controller with your existing gesture controller. Just make sure you replace the right hand and left Hand layers to prevent it from interfering with each other.<br/>
 
