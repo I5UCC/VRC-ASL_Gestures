@@ -48,8 +48,8 @@ SignIndex (int) <br/><br/>
 RightThumb (Int)<br/>
 LeftThumb (Int)<br/>
 RightTrigger (Float)<br/>
-LeftTrigger (Float)<br/><br/>
-SignsDisabled (bool) <br/>
+LeftTrigger (Float)<br/>
+SignsDisabled (bool) <br/><br/>
 
 ***For Oculus users (WITHOUT VRCThumbParams):*** <br/>
 
