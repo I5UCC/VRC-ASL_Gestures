@@ -3,11 +3,11 @@ Gesture Controllers for VRChat 3.0 Avatars to be able to do additional ASL Gestu
 
 This Repository has different gesture controllers that can be used, dependent on the controller you use:
 - Index Controller
-  - using ![VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background.
-    - *(OR ![VRCThumbParams](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.3.4/ThumbParams.dll) by ![benaclejames](https://github.com/benaclejames) **DISCLAIMER**: any modification to VRChat's Client or SDK can lead to a ban or other punishment, I will not be held responsible for any punishments that you may be given for using this mod.)*
+  - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background.
+    - *(OR [VRCThumbParams](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.3.4/ThumbParams.dll) by [benaclejames](https://github.com/benaclejames) **DISCLAIMER**: any modification to VRChat's Client or SDK can lead to a ban or other punishment, I will not be held responsible for any punishments that you may be given for using this mod.)*
   - without any additional programs (Left/Right Hand Dominant versions available).
 - GeneralVR (made for Oculus Touch) 
-  - using ![VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background.
+  - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background.
   - without any additional programs (Left/Right Hand Dominant versions available).
 
 If there are any questions or suggestions about these Gesture Controller, feel free to create a discussion in this repository or text me directly on Discord. **User: I5UCC#6781**. If there are any issues please create an issue!<br/>
@@ -165,4 +165,4 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 - Why can't people see my signs sometimes?
   - Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs, make sure that is the case.
 - The animations don't fit my Avatar.
-  - The animations used in this Gesture Controller are made with ![Pandaabear's base](https://pandaabear.gumroad.com/l/pAxQR). However they should work with basically any Avatar but might require small adjustments for more complex signs like E-Hand or R-Hand.
+  - The animations used in this Gesture Controller are made with [Pandaabear's base](https://pandaabear.gumroad.com/l/pAxQR). However they should work with basically any Avatar but might require small adjustments for more complex signs like E-Hand or R-Hand.
