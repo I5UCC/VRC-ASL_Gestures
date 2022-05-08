@@ -10,7 +10,9 @@ This Repository has different gesture controllers that can be used, dependent on
   - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background.
   - without any additional programs (Left/Right Hand Dominant versions available).
 
-If there are any questions or suggestions about these Gesture Controller, feel free to create a discussion in this repository or text me directly on Discord. **User: I5UCC#6781**. If there are any issues please create an issue!<br/>
+If there are any questions or suggestions about these Gesture Controller, feel free to create a discussion in this repository or text me directly on Discord. **User: I5UCC#6781**. 
+
+If there are any issues please read the [FAQ](https://github.com/I5UCC/VRC-ASL_Gestures#faq) first, then create an issue!<br/>
 
 ### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
