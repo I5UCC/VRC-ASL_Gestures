@@ -16,7 +16,7 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 
 ### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
-#Future Updates:
+## Future Updates:
 - Optimizing the controllers to not use Any State transitions for better performance.
 
 # Avatar Setup
