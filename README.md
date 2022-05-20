@@ -16,6 +16,9 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 
 ### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
+#Future Updates:
+- Optimizing the controllers to not use Any State transitions for better performance.
+
 # Avatar Setup
 
 ### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller.
