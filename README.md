@@ -5,10 +5,10 @@ This Repository has different gesture controllers that can be used, dependent on
 - Index Controller
   - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background.
     - *(OR [VRCThumbParams](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v1.3.4/ThumbParams.dll) by [benaclejames](https://github.com/benaclejames) **DISCLAIMER**: any modification to VRChat's Client or SDK can lead to a ban or other punishment, I will not be held responsible for any punishments that you may be given for using this mod.)*
-  - without any additional programs (Left/Right Hand Dominant versions available).
-- GeneralVR (made for Oculus Touch) 
-  - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background. (***Only Recommended if you use a Controller grip***)
-  - without any additional programs (Left/Right Hand Dominant versions available).
+  - without any additional programs ***(Left/Right Hand Dominant versions available)***.
+- GeneralVR ***(made for Oculus Touch)***
+  - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background. ***(Only Recommended if you use a Controller grip)***
+  - without any additional programs ***(Left/Right Hand Dominant versions available)***.
 
 If there are any questions or suggestions about these Gesture Controller, feel free to create a discussion in this repository or text me directly on Discord. **User: I5UCC#6781**. 
 
