@@ -18,6 +18,11 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 
 ## Future Updates:
 - Optimizing the controllers to not use Any State transitions for better performance.
+  - ~~Gestures_Index_Thumbparams~~
+  - ASLGestures_Index_NoMod
+  - ASLGestures_GeneralVR_Thumbparams
+  - ASLGestures_GeneralVR_NoMod
+- Making an install script
 
 # Avatar Setup
 
