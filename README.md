@@ -17,11 +17,11 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 ### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
 ## Future Updates:
-- [ ] Optimizing the controllers to not use Any State transitions for better performance.
-  - [x] Index_Thumbparams ([v2.0-Alpha1 Release](https://github.com/I5UCC/VRC-ASL_Gestures/releases/tag/v2.0-Alpha1))
-  - [ ] Index_NoMod
+- [ ] Optimizing the controllers to not use Any State transitions for better performance. ([v2.0-Alpha1 Release](https://github.com/I5UCC/VRC-ASL_Gestures/releases/tag/v2.0-Alpha2))
+  - [x] Index_Thumbparams 
+  - [x] Index_NoMod
   - [ ] GeneralVR_Thumbparams
-  - [ ] GeneralVR_NoMod
+  - [x] GeneralVR_NoMod 
 - [ ] Making an install script
 
 # Avatar Setup
