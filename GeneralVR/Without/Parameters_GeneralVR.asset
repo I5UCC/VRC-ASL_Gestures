@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Parameters_GeneralVR
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignDisabled
+  - name: SignsDisabled
     valueType: 2
-    saved: 1
+    saved: 0
     defaultValue: 0
   - name: ComboSignIndex
     valueType: 0

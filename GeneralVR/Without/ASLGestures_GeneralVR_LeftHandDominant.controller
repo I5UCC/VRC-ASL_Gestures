@@ -78,12 +78,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &-8493311659142507302
@@ -413,12 +419,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-6773007569020634667
@@ -621,12 +633,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &-5323195124238096030
@@ -762,7 +780,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 4
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: Disable Signs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102721518656945930}
@@ -1078,7 +1096,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: Disable Signs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3219616285860105227}
@@ -1240,7 +1258,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRightWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: Disable Signs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102766715558962252}
@@ -1704,8 +1722,8 @@ AnimatorController:
   m_Name: ASLGestures_GeneralVR_LeftHandDominant
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: ComboSignDisabled
-    m_Type: 4
+  - m_Name: GestureLeft
+    m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -1716,8 +1734,8 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: GestureLeft
-    m_Type: 3
+  - m_Name: GestureLeftWeight
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -1728,14 +1746,14 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: GestureLeftWeight
-    m_Type: 1
+  - m_Name: ComboSignIndex
+    m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ComboSignIndex
-    m_Type: 3
+  - m_Name: Disable Signs
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -1802,12 +1820,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 12
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114126663023761786
@@ -1823,12 +1847,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 3
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114389857470154522
@@ -1844,12 +1874,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 13
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114609687944581330
@@ -1865,12 +1901,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 9
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114650393738086128
@@ -1886,12 +1928,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 14
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114652276397261958
@@ -1907,12 +1955,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 4
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114655805995309976
@@ -1928,12 +1982,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 15
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114736959282597608
@@ -1949,12 +2009,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 5
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114738002587322124
@@ -1970,12 +2036,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 6
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114795161533160924
@@ -1991,12 +2063,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 11
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114796318025551998
@@ -2012,12 +2090,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 10
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114935906858407502
@@ -2033,12 +2117,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 2
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &114938383466214938
@@ -2054,12 +2144,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 7
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &169993340596851931
@@ -3182,7 +3278,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 6
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: Disable Signs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102759187657161886}
@@ -5154,12 +5250,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &1493397392051082131
@@ -5375,7 +5477,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 2
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: Disable Signs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102216745446540684}
@@ -5529,7 +5631,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 7
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: Disable Signs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102793691554635598}
@@ -5684,12 +5786,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &4399359759478060460
@@ -5911,7 +6019,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: Disable Signs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102295850850822420}
@@ -6007,12 +6115,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 9
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &6151050002003389452
@@ -6131,12 +6245,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &6838439521409768388
@@ -6169,12 +6289,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &6916269397016134233
@@ -6296,12 +6422,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &7593320420677682432
@@ -6342,12 +6474,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &7783072743089068568
@@ -6363,12 +6501,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: ComboSignIndex
+  - type: 0
+    name: ComboSignIndex
+    source: 
     value: 8
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1109 &7824893818498632899
@@ -6431,7 +6575,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 3
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: Disable Signs
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102151203558476982}

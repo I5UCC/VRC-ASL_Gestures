@@ -267,8 +267,26 @@ namespace I5UCC.VRCASLGestures
         private void MergeMenus(VRCAvatarDescriptor descriptor, VRCExpressionsMenu menuToAdd)
         {
             VRCExpressionsMenu menuOriginal = (VRCExpressionsMenu)descriptor.expressionsMenu;
+            foreach (VRCExpressionsMenu.Control c in menuToAdd.controls)
+            {
+                if (!MenuContainsControl(menuOriginal, c.name))
+                {
+                    VRCExpressionsMenu.Control temp = new VRCExpressionsMenu.Control
+                    {
+                        name = c.name,
+                        icon = c.icon,
+                        labels = c.labels,
+                        parameter = c.parameter,
+                        style = c.style,
+                        subMenu = c.subMenu,
+                        subParameters = c.subParameters,
+                        type = c.type,
+                        value = c.value
+                    };
 
-            menuOriginal.controls.AddRange(menuToAdd.controls);
+                    menuOriginal.controls.Add(temp);
+                }
+            }
         }
 
         private void MergeController(VRCAvatarDescriptor descriptor, AnimatorController controllerToAdd)
@@ -289,6 +307,15 @@ namespace I5UCC.VRCASLGestures
         private bool ParametersContainsParameter(VRCExpressionParameters c, string name)
         {
             foreach (VRCExpressionParameters.Parameter p in c.parameters)
+                if (p.name == name)
+                    return true;
+
+            return false;
+        }
+
+        private bool MenuContainsControl(VRCExpressionsMenu c, string name)
+        {
+            foreach (VRCExpressionsMenu.Control p in c.controls)
                 if (p.name == name)
                     return true;
 
