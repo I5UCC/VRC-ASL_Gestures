@@ -22,7 +22,7 @@ If there are any questions or suggestions about these Gesture Controller, feel f
   - [x] Index_NoMod
   - [ ] GeneralVR_Thumbparams
   - [x] GeneralVR_NoMod 
-- [ ] Making an install script
+- [x] Making an install script
 
 # Avatar Setup
 
