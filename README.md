@@ -28,7 +28,7 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 
 ## Automatic
 
-### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller.
+### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0.
 
 ### 2. In unity, click on Tools<VRC-ASL_Gestures
 ![grafik](https://user-images.githubusercontent.com/43730681/173200345-4e383dd5-a9a2-4069-b28d-23b476ee2cb7.png)
