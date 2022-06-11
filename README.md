@@ -17,14 +17,30 @@ If there are any questions or suggestions about these Gesture Controller, feel f
 ### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
 ## Future Updates:
-- [ ] Optimizing the controllers to not use Any State transitions for better performance. ([v2.0-Alpha2 Release](https://github.com/I5UCC/VRC-ASL_Gestures/releases/tag/v2.0-Alpha2))
+- [x] Optimizing the controllers to not use Any State transitions for better performance.
   - [x] Index_Thumbparams 
   - [x] Index_NoMod
-  - [ ] GeneralVR_Thumbparams
+  - [x] GeneralVR_Thumbparams
   - [x] GeneralVR_NoMod 
 - [x] Making an install script
 
 # Avatar Setup
+
+## Automatic
+
+### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller.
+
+### 2. In unity, click on Tools<VRC-ASL_Gestures
+![grafik](https://user-images.githubusercontent.com/43730681/173200345-4e383dd5-a9a2-4069-b28d-23b476ee2cb7.png)
+
+### 3. Drag and drop your avatar into the window
+![Unity_EqkDnZsvl1](https://user-images.githubusercontent.com/43730681/173200553-d983483b-55ca-48c5-b3a8-d9f7b57f5ccb.gif)
+
+### 4. Choose your settings and click install!
+![Unity_5bumdm4JDC](https://user-images.githubusercontent.com/43730681/173200670-2de6ef83-54e7-414e-96e8-ea801972a429.gif)
+
+
+## Manual
 
 ### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller.
 
