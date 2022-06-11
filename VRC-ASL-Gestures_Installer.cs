@@ -287,6 +287,7 @@ namespace I5UCC.VRCASLGestures
                     menuOriginal.controls.Add(temp);
                 }
             }
+            EditorUtility.SetDirty(descriptor.expressionsMenu);
         }
 
         private void MergeController(VRCAvatarDescriptor descriptor, AnimatorController controllerToAdd)
@@ -294,13 +295,8 @@ namespace I5UCC.VRCASLGestures
             AnimatorController controllerOriginal = (AnimatorController)descriptor.baseAnimationLayers[2].animatorController;
 
             for (int i = 1; i < controllerOriginal.layers.Length; i++)
-            {
-                AnimatorControllerLayer l = controllerToAdd.layers[i];
-                if (l.avatarMask.name.Contains("Hand"))
-                {
+                if (controllerToAdd.layers[i].avatarMask.name.Contains("Hand"))
                     controllerOriginal.RemoveLayer(i);
-                }
-            }
 
             AnimatorCloner.MergeControllers(controllerOriginal, controllerToAdd);
         }
@@ -325,13 +321,8 @@ namespace I5UCC.VRCASLGestures
         private bool AnimatorAlreadySet()
         {
             for (int i = 0; i < controllerPath.Length; i++)
-            {
-                string name = controllerPath[i];
                 if (targetAvatar.baseAnimationLayers[layerindex].animatorController.name + ".controller" == controllerPath[i].Substring(controllerPath[i].LastIndexOf("/") + 1))
-                {
                     return true;
-                }
-            }
             return false;
         }
     }
