@@ -79,7 +79,6 @@ SignsDisabled (bool) <br/><br/>
 ***For index users (WITHOUT VRCThumbParams):*** <br/>
 
 SignsDisabled (bool) <br/>
-SignIndex (int) <br/><br/>
 
 ***For Oculus users (WITH VRCThumbParams):*** <br/>
 
