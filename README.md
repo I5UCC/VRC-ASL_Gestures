@@ -71,18 +71,18 @@ You can use ![VRLabs Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-
 Add the following parameters to your avatars parameters (**CASE SENSITIVE**): <br/><br/>
 
 ***For index users (WITH VRCThumbParams):*** <br/>
-![Parameters](https://i.imgur.com/bSZOaXb.png)<br/><br/>
+
 LeftThumb (int) <br/>
 RightThumb (int) <br/>
 SignsDisabled (bool) <br/><br/>
 
 ***For index users (WITHOUT VRCThumbParams):*** <br/>
-![Parameters](https://user-images.githubusercontent.com/43730681/145733626-67525125-6fb3-4c14-9921-012d5bfa8892.png)<br/><br/>
+
 SignsDisabled (bool) <br/>
 SignIndex (int) <br/><br/>
 
 ***For Oculus users (WITH VRCThumbParams):*** <br/>
-![image](https://user-images.githubusercontent.com/43730681/165517573-d065f543-563c-4080-970d-185abbe1ec9f.png)<br/><br/>
+
 RightThumb (Int)<br/>
 LeftThumb (Int)<br/>
 RightTrigger (Float)<br/>
@@ -91,7 +91,6 @@ SignsDisabled (bool) <br/><br/>
 
 ***For Oculus users (WITHOUT VRCThumbParams):*** <br/>
 
-![Parameters](https://user-images.githubusercontent.com/43730681/145126521-0de7f8fd-56a4-4f6f-91da-6fddc51549dc.png)<br/><br/>
 ComboSignIndex (Int)<br/>
 ComboSignDisabled (Bool)<br/><br/>
 
