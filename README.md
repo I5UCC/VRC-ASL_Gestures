@@ -74,7 +74,7 @@ Add the following parameters to your avatars parameters (**CASE SENSITIVE**): <b
 
 LeftThumb (int) <br/>
 RightThumb (int) <br/>
-SignsDisabled (bool) <br/><br/>
+SignsDisabled (bool) <br/>
 
 ***For index users (WITHOUT VRCThumbParams):*** <br/>
 
@@ -86,12 +86,12 @@ RightThumb (Int)<br/>
 LeftThumb (Int)<br/>
 RightTrigger (Float)<br/>
 LeftTrigger (Float)<br/>
-SignsDisabled (bool) <br/><br/>
+SignsDisabled (bool) <br/>
 
 ***For Oculus users (WITHOUT VRCThumbParams):*** <br/>
 
 ComboSignIndex (Int)<br/>
-ComboSignDisabled (Bool)<br/><br/>
+ComboSignDisabled (Bool)<br/>
 
 # Controls
 
