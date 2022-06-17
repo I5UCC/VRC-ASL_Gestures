@@ -194,4 +194,4 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 - The animations don't fit my Avatar.
   - The animations used in this Gesture Controller are made with [Pandaabear's base](https://pandaabear.gumroad.com/l/pAxQR). However they should work with basically any Avatar but might require small adjustments for more complex signs like E-Hand or R-Hand.
 - What if my Avatar uses Write Defaults on?
-  - Shouldn't be a problem. you can set all of the animations WD on if you use WD in your Gesture Layer, that shouldn't cause problems.
+  - Shouldn't be a problem. you can set all of the animations WD on if you use WD in your Gesture Layer, that shouldn't cause problems, I would still recommend having WD off, as VRChat recommends it.
