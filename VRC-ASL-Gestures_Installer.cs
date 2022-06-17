@@ -293,10 +293,16 @@ namespace I5UCC.VRCASLGestures
         private void MergeController(VRCAvatarDescriptor descriptor, AnimatorController controllerToAdd)
         {
             AnimatorController controllerOriginal = (AnimatorController)descriptor.baseAnimationLayers[2].animatorController;
+            
+            AvatarMask lefthandmask = AssetDatabase.LoadAssetAtPath("Assets/VRCSDK/Examples3/Animation/Masks/vrc_Hand Left.mask", typeof(AvatarMask)) as AvatarMask;
+            AvatarMask righthandmask = AssetDatabase.LoadAssetAtPath("Assets/VRCSDK/Examples3/Animation/Masks/vrc_Hand Right.mask", typeof(AvatarMask)) as AvatarMask;
 
             for (int i = 1; i < controllerOriginal.layers.Length; i++)
-                if (controllerToAdd.layers[i].avatarMask.name.Contains("Hand"))
+                if (controllerOriginal.layers[i].avatarMask.Equals(lefthandmask) || controllerOriginal.layers[i].avatarMask.Equals(righthandmask))
+                {
                     controllerOriginal.RemoveLayer(i);
+                    i--;
+                }   
 
             AnimatorCloner.MergeControllers(controllerOriginal, controllerToAdd);
         }

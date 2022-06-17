@@ -15,7 +15,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 15
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102559959667834710}
@@ -149,7 +149,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 14
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102069462340593210}
@@ -236,7 +236,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7825636375382634230}
@@ -390,7 +390,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 11
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -495,7 +495,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -520,7 +520,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -587,7 +587,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102206801987528532}
@@ -604,7 +604,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 4
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -659,7 +659,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 4
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102773295092061210}
@@ -707,7 +707,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 9
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2248576940643016808}
@@ -724,7 +724,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -780,7 +780,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 4
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102721518656945930}
@@ -961,7 +961,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1096,7 +1096,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3219616285860105227}
@@ -1121,7 +1121,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 10
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1227,7 +1227,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 12
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1258,7 +1258,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102766715558962252}
@@ -1353,7 +1353,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 8
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6773007569020634667}
@@ -1460,7 +1460,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 10
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102839052289514810}
@@ -1502,7 +1502,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1580,7 +1580,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102961518682305970}
@@ -1619,7 +1619,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 9
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1746,13 +1746,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: ComboSignDisabled
+  - m_Name: SignsDisabled
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Disable Signs
+  - m_Name: ComboSignIndex
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -3278,7 +3278,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 6
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102759187657161886}
@@ -3306,7 +3306,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102971303449907880}
@@ -3348,7 +3348,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -3373,7 +3373,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 13
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -3398,7 +3398,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -3426,7 +3426,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102472811866488948}
@@ -5221,7 +5221,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5477,7 +5477,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 2
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102216745446540684}
@@ -5505,7 +5505,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 5
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102224574226870890}
@@ -5522,7 +5522,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 3
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5600,7 +5600,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5631,7 +5631,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 7
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102793691554635598}
@@ -5662,7 +5662,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 13
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102712918967198156}
@@ -5718,7 +5718,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 14
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -5815,7 +5815,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 12
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102910455220012622}
@@ -5882,7 +5882,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -6019,7 +6019,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 1
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102295850850822420}
@@ -6326,7 +6326,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -6575,7 +6575,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRight
     m_EventTreshold: 3
   - m_ConditionMode: 2
-    m_ConditionEvent: ComboSignDisabled
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102151203558476982}
@@ -6600,7 +6600,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 15
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -6625,7 +6625,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 8
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -6650,7 +6650,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -6703,7 +6703,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 7
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -6854,7 +6854,7 @@ AnimatorTransition:
     m_ConditionEvent: GestureLeftWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 6
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: ComboSignIndex
     m_EventTreshold: 11
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102711767551534732}

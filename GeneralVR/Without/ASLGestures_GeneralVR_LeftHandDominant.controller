@@ -780,7 +780,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 4
   - m_ConditionMode: 2
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102721518656945930}
@@ -1096,7 +1096,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3219616285860105227}
@@ -1258,7 +1258,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureRightWeight
     m_EventTreshold: 0.99
   - m_ConditionMode: 2
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102766715558962252}
@@ -1722,42 +1722,42 @@ AnimatorController:
   m_Name: ASLGestures_GeneralVR_LeftHandDominant
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: GestureLeft
-    m_Type: 3
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   - m_Name: GestureRight
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: GestureLeftWeight
-    m_Type: 1
+    m_Controller: {fileID: 9100000}
+  - m_Name: GestureLeft
+    m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: GestureRightWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
+  - m_Name: GestureLeftWeight
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: SignsDisabled
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
   - m_Name: ComboSignIndex
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: Disable Signs
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: AllParts
@@ -3278,7 +3278,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 6
   - m_ConditionMode: 2
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102759187657161886}
@@ -5477,7 +5477,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 2
   - m_ConditionMode: 2
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102216745446540684}
@@ -5631,7 +5631,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 7
   - m_ConditionMode: 2
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102793691554635598}
@@ -6019,7 +6019,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 1
   - m_ConditionMode: 2
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102295850850822420}
@@ -6575,7 +6575,7 @@ AnimatorStateTransition:
     m_ConditionEvent: GestureLeft
     m_EventTreshold: 3
   - m_ConditionMode: 2
-    m_ConditionEvent: Disable Signs
+    m_ConditionEvent: SignsDisabled
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102151203558476982}
