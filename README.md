@@ -93,7 +93,7 @@ SignsDisabled (bool) <br/>
 ***For Oculus users (WITHOUT VRCThumbParams):*** <br/>
 
 ComboSignIndex (Int)<br/>
-ComboSignDisabled (Bool)<br/>
+SignsDisabled (bool) <br/>
 
 # Controls
 
