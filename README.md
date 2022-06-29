@@ -17,15 +17,7 @@ You can find the standard controls for them [here](https://github.com/I5UCC/VRC-
 
 # If you made any alternative animations for different bases that you want to have added, create a pull request for it, or text me on discord.
 
-### ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
-
-## Future Updates:
-- [x] Optimizing the controllers to not use Any State transitions for better performance.
-  - [x] Index_Thumbparams 
-  - [x] Index_NoMod
-  - [x] GeneralVR_Thumbparams
-  - [x] GeneralVR_NoMod 
-- [x] Making an install script
+# ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
 # Avatar Setup
 
