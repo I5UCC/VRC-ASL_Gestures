@@ -1,4 +1,4 @@
-# VRC-ASL_Gestures
+# <img src="https://user-images.githubusercontent.com/43730681/176920686-1539fd29-3dad-46a8-9f88-f938d8639b54.png" width="32" height="32">  VRC-ASL_Gestures
 Gesture Controllers for VRChat 3.0 Avatars to be able to do more ASL Handshapes. 
 
 This Repository has different gesture controllers that can be used, dependent on the controller you use:
