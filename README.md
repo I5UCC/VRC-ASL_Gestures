@@ -1,5 +1,5 @@
 # VRC-ASL_Gestures
-Gesture Controllers for VRChat 3.0 Avatars to be able to do additional ASL Gestures, depending on the used controller.
+Gesture Controllers for VRChat 3.0 Avatars to be able to do more ASL Handshapes. 
 
 This Repository has different gesture controllers that can be used, dependent on the controller you use:
 - Index Controller
@@ -11,13 +11,13 @@ This Repository has different gesture controllers that can be used, dependent on
 
 You can find the standard controls for them [here](https://github.com/I5UCC/VRC-ASL_Gestures#controls)
 
+# ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
+
 # If there are any questions or suggestions about these Gesture Controller, feel free to create a discussion in this repository or text me directly on Discord. **User: I5UCC#6781**. 
 
 # If there are any issues please read the [FAQ](https://github.com/I5UCC/VRC-ASL_Gestures#faq) and [ISSUES](https://github.com/I5UCC/VRC-ASL_Gestures/issues?q=is%3Aissue+is%3Aclosed+is%3Aopen+is%3Aissue+) first, then create an issue!<br/>
 
 # If you made any alternative animations for different bases that you want to have added, create a pull request for it, or text me on discord.
-
-# ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
 
 # Avatar Setup
 
