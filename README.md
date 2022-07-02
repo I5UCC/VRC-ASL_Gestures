@@ -29,11 +29,11 @@ You can find the standard controls for them [here](https://github.com/I5UCC/VRC-
 ![grafik](https://user-images.githubusercontent.com/43730681/173200345-4e383dd5-a9a2-4069-b28d-23b476ee2cb7.png)
 
 ### 3. Drag and drop your avatar into the window
-![Unity_EqkDnZsvl1](https://user-images.githubusercontent.com/43730681/173200553-d983483b-55ca-48c5-b3a8-d9f7b57f5ccb.gif)
+![Unity_bIf8tp1nxi](https://user-images.githubusercontent.com/43730681/177012949-6cc2ac67-7871-4d88-8c53-5a5a6c50a805.gif)
+
 
 ### 4. Choose your settings and click install!
-![Unity_5bumdm4JDC](https://user-images.githubusercontent.com/43730681/173200670-2de6ef83-54e7-414e-96e8-ea801972a429.gif)
-
+![9yGN74Mosn](https://user-images.githubusercontent.com/43730681/177012951-2dfd2fb6-375a-4108-b5ad-bb1090504c5b.gif)
 
 ## Manual
 
