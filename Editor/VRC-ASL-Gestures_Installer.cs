@@ -8,6 +8,7 @@ using VRCAvatarDescriptor = VRC.SDK3.Avatars.Components.VRCAvatarDescriptor;
 using VRC.SDK3.Avatars.ScriptableObjects;
 using System.Linq;
 using System.Collections.Generic;
+using UnityEngine.UIElements;
 
 namespace I5UCC.VRCASLGestures
 {
@@ -19,12 +20,15 @@ namespace I5UCC.VRCASLGestures
         private int DominantHand = 0;
 
         private GUIStyle titleStyle = null;
+        private GUIStyle titleStyle2 = null;
         private GUIStyle errorStyle = null;
         private GUIStyle highlightedStyle = null;
 
         private AnimatorController animatorToAdd = null;
         private VRCExpressionParameters parametersToAdd = null;
         private VRCExpressionsMenu menuToAdd = null;
+
+        private bool showInfo = false;
 
         private readonly string[] controllerPath =
         {
@@ -87,6 +91,17 @@ namespace I5UCC.VRCASLGestures
                 }
             };
 
+
+            titleStyle2 = new GUIStyle()
+            {
+                fontSize = 23,
+                fixedHeight = 28,
+                fontStyle = FontStyle.Bold,
+                normal = {
+                    textColor = Color.white
+                }
+            };
+
             highlightedStyle = new GUIStyle()
             {
                 fontStyle = FontStyle.Bold,
@@ -110,9 +125,14 @@ namespace I5UCC.VRCASLGestures
 
         private void DrawSimple()
         {
-            EditorGUILayout.LabelField("Avatar", titleStyle);
+            Texture banner = (Texture)AssetDatabase.LoadAssetAtPath("Assets/VRC-ASL_Gestures/VRC ASL.png", typeof(Texture));
+            GUI.DrawTexture(new Rect(20, 10, 60, 60), banner, ScaleMode.StretchToFill, true, 10.0F);
+            EditorGUILayout.Space(12);
+            EditorGUILayout.LabelField("\tVRC-ASL_Gestures", titleStyle2);
+            EditorGUILayout.Space(35);
+            EditorGUILayout.LabelField("Avatar (Drag and Drop avatar here)", titleStyle);
             EditorGUILayout.Space();
-            targetAvatar = EditorGUILayout.ObjectField(targetAvatar, typeof(VRCAvatarDescriptor), true) as VRCAvatarDescriptor;
+            targetAvatar = EditorGUILayout.ObjectField(targetAvatar, typeof(VRCAvatarDescriptor), true, GUILayout.Height(30)) as VRCAvatarDescriptor;
             EditorGUILayout.Space();
 
             if (targetAvatar)
@@ -132,7 +152,7 @@ namespace I5UCC.VRCASLGestures
 
                 UseThumbparams = EditorGUILayout.Popup(UseThumbparams, new string[2] {
                     "No",
-                    "Yes"
+                    "Yes (Requires ThumbparamsOSC)"
                 });
 
                 if (UseThumbparams == 0)
@@ -155,14 +175,22 @@ namespace I5UCC.VRCASLGestures
                 else
                     TotalCost = cost[type];
 
-                EditorGUILayout.LabelField("To add or merge:", highlightedStyle);
-                EditorGUILayout.LabelField(controllerPath[type].Substring(controllerPath[type].LastIndexOf("/") + 1));
-                EditorGUILayout.LabelField(parameterPath[type].Substring(parameterPath[type].LastIndexOf("/") + 1));
-                EditorGUILayout.LabelField(menuPath[type].Substring(menuPath[type].LastIndexOf("/") + 1));
+                showInfo = EditorGUILayout.Foldout(showInfo, "More Information", true);
+
+
+                if (showInfo)
+                {
+                    EditorGUILayout.Space();
+                    EditorGUILayout.LabelField("To add or merge:", highlightedStyle);
+                    EditorGUILayout.LabelField(controllerPath[type].Substring(controllerPath[type].LastIndexOf("/") + 1));
+                    EditorGUILayout.LabelField(parameterPath[type].Substring(parameterPath[type].LastIndexOf("/") + 1));
+                    EditorGUILayout.LabelField(menuPath[type].Substring(menuPath[type].LastIndexOf("/") + 1));
+                    EditorGUILayout.Space();
+                }
+
                 EditorGUILayout.Space();
                 EditorGUILayout.LabelField("Parameters needed: " + cost[type].ToString(), highlightedStyle);
                 EditorGUILayout.LabelField("Total Parameters: " + TotalCost.ToString() + "/256", highlightedStyle);
-
 
                 if (TotalCost <= 256 && (targetAvatar.expressionsMenu == null || targetAvatar.expressionsMenu.controls.Count != 8))
                 {
