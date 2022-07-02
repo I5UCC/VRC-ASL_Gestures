@@ -189,8 +189,8 @@ namespace I5UCC.VRCASLGestures
                 }
 
                 EditorGUILayout.Space();
-                EditorGUILayout.LabelField("Parameters needed: " + cost[type].ToString(), highlightedStyle);
-                EditorGUILayout.LabelField("Total Parameters: " + TotalCost.ToString() + "/256", highlightedStyle);
+                EditorGUILayout.LabelField("Memory needed: " + cost[type].ToString(), highlightedStyle);
+                EditorGUILayout.LabelField("Total Memory: " + TotalCost.ToString() + "/256", highlightedStyle);
 
                 if (TotalCost <= 256 && (targetAvatar.expressionsMenu == null || targetAvatar.expressionsMenu.controls.Count != 8))
                 {
