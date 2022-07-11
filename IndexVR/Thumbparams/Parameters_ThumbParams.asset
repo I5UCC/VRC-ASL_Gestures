@@ -25,7 +25,3 @@ MonoBehaviour:
     valueType: 2
     saved: 0
     defaultValue: 0
-  - name: ComboSignIndex
-    valueType: 0
-    saved: 0
-    defaultValue: 0

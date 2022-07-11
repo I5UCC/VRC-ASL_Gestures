@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: Disable Signs
-    icon: {fileID: 2800000, guid: 601c0c2d9369bd7438efeed1d6d90737, type: 3}
+    icon: {fileID: 2800000, guid: 41d3e2cf81a184147be8e36c18853e7a, type: 3}
     type: 102
     parameter:
       name: SignsDisabled
