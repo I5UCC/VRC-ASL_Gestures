@@ -145,14 +145,14 @@ namespace I5UCC.VRCASLGestures
                 });
 
                 EditorGUILayout.Space();
-                EditorGUILayout.LabelField("Use Thumbparams? (External OSC Program)", titleStyle);
+                EditorGUILayout.LabelField("Use Thumbparams?", titleStyle);
                 EditorGUILayout.Space();
-                if (GUILayout.Button("More information on ThumbparamsOSC"))
-                    Application.OpenURL("https://github.com/I5UCC/VRCThumbParamsOSC");
+                if (GUILayout.Button("More information on Thumbparams"))
+                    Application.OpenURL("https://github.com/I5UCC/VRC-ASL_Gestures/blob/8f23c2ea70f1a50b5e6349252b48f22788cc0955/ThumbParamsInfo.md");
 
                 UseThumbparams = EditorGUILayout.Popup(UseThumbparams, new string[2] {
                     "No",
-                    "Yes (Requires ThumbparamsOSC)"
+                    "Yes"
                 });
 
                 if (UseThumbparams == 0)
