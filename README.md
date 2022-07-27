@@ -6,7 +6,7 @@ This Repository has different gesture controllers that can be used, dependent on
   - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC).
   - without any additional programs ***(Left/Right Hand Dominant versions available)***.
 - GeneralVR ***(made for Oculus Touch)***
-  - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC) running in the background. ***(Only Recommended if you use a Controller grip)***
+  - using [VRCThumbParamsOSC](https://github.com/I5UCC/VRCThumbParamsOSC). ***(Only Recommended if you use a Controller grip)***
   - without any additional programs ***(Left/Right Hand Dominant versions available)***.
 
 You can find the standard controls for them [here](https://github.com/I5UCC/VRC-ASL_Gestures#controls)
