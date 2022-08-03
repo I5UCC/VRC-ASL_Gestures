@@ -21,7 +21,7 @@ You can find the standard controls for them [here](https://github.com/I5UCC/VRC-
 
 # Avatar Setup
 
-## Automatic
+## Automatic Setup
 
 ### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0.
 
@@ -35,7 +35,7 @@ You can find the standard controls for them [here](https://github.com/I5UCC/VRC-
 ### 4. Choose your settings and click install!
 ![9yGN74Mosn](https://user-images.githubusercontent.com/43730681/177012951-2dfd2fb6-375a-4108-b5ad-bb1090504c5b.gif)
 
-## Manual
+## Manual Setup
 
 ### 1. Import the provided .unitypackage file to an existing avatar project with VRCSDK3.0. All needed items will be found in your assets folder inside a new folder named VRC-ASL_Gestures. The next steps are dependent on your used Controller.
 
