@@ -152,7 +152,7 @@ namespace I5UCC.VRCASLGestures
 
                 UseThumbparams = EditorGUILayout.Popup(UseThumbparams, new string[2] {
                     "No",
-                    "Yes"
+                    "Yes (Recommended)"
                 });
 
                 if (UseThumbparams == 0)
