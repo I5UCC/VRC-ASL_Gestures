@@ -15,7 +15,7 @@ You can find the standard controls for them [here](https://github.com/I5UCC/VRC-
 
 ## If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or text me directly on Discord. **I5UCC#6781**. 
 
-## If there are any issues please read the [FAQ](https://github.com/I5UCC/VRC-ASL_Gestures#faq) and [ISSUES](https://github.com/I5UCC/VRC-ASL_Gestures/issues?q=is%3Aissue+is%3Aclosed+is%3Aopen+is%3Aissue+) first, then create an issue!<br/>
+## If there are any issues please read the [FAQ](https://github.com/I5UCC/VRC-ASL_Gestures#faq) (At the bottom of this repository) and [ISSUES](https://github.com/I5UCC/VRC-ASL_Gestures/issues?q=is%3Aissue+is%3Aclosed+is%3Aopen+is%3Aissue+) first, then create an issue!<br/>
 
 ## If you made any alternative animations for different bases that you want to have added, create a pull request for it.
 
