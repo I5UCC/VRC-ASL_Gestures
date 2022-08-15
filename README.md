@@ -11,7 +11,7 @@ This Repository has different gesture controllers that can be used, dependent on
 
 You can find the standard controls for them [here](https://github.com/I5UCC/VRC-ASL_Gestures#controls)
 
-# ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
+# ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v2.0.3/VRC-ASL_Gestures_v2.0.3.unitypackage)
 
 ## If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or text me directly on Discord. **I5UCC#6781**. 
 
