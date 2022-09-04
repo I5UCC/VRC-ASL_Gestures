@@ -162,26 +162,12 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 | HandGun | L-Hand | F Hand | W-Hand |
 | ThumbsUp | Open-A-Hand| I Hand | E-Hand |
 
-# Modifying/Adding Gestures
-
-### First open your avatar's ASL Gesture controller, ***then for both Left and Right hands***:
-
-#### 1. Click on the hand position you wish to modify the gesture for (in this case Neutral_ThumbStick).
-
-![gesture](https://user-images.githubusercontent.com/7873528/166107617-3680388e-4e3c-4d44-b8ca-652e003d3ab8.png)
-
-#### 2. In the inspector, change the "Motion" parameter by clicking on the little circle to the right of it. In the window that appears, search for "hand", then select the hand animation you desire for that gesture (in this case B Hand).
-
-![motion](https://user-images.githubusercontent.com/7873528/166107753-7be8f3d7-8ce9-43b6-89c5-fad2d43e63a0.png)
-
-#### 3. Make sure the transition to the gesture isn't muted, the arrow connecting to it should be white, if not: click on the arrow, and in the inspector window, untick "Mute".
-
-![mute](https://user-images.githubusercontent.com/7873528/166108164-e24e07fb-9aea-429d-ac55-261df6183005.png)
-![mute2](https://user-images.githubusercontent.com/7873528/166108312-70a410ab-94a6-4221-a971-2b20672344b8.png)
+# Modifing/Adding Gestures
+### TO BE ADDED
 
 # FAQ
 
-- Why can't people see my signs sometimes?
+- Why cant people see my signs sometimes?
   - Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs, make sure that is the case.
 - The animations don't fit my Avatar.
   - The animations used in this Gesture Controller are made with [Pandaabear's base](https://pandaabear.gumroad.com/l/pAxQR). However they should work with basically any Avatar but might require small adjustments for more complex signs like E-Hand or R-Hand. There are some alternative Animations in the 
