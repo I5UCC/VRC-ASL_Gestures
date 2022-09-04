@@ -162,9 +162,6 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 | HandGun | L-Hand | F Hand | W-Hand |
 | ThumbsUp | Open-A-Hand| I Hand | E-Hand |
 
-# Modifing/Adding Gestures
-### TO BE ADDED
-
 # FAQ
 
 - Why cant people see my signs sometimes?
