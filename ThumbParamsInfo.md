@@ -4,4 +4,4 @@
 ### [benaclejames - OVRThumbParams](https://github.com/benaclejames/OVRThumbParams) 
 ### [KaelanDuck - VRCAdvancedActionsOSC](https://github.com/KaelanDuck/VRCAdvancedActionsOSC)
 
-### These programs expose Thumbpositions(or even more) to VRChat and make the use of those Animators possible in the first place. You can get more informations on their corresponding Repositories above.
+### These programs expose Thumbpositions (or even more) to VRChat and make the use of those Animators possible in the first place. You can get more informations on their corresponding Repositories above.
