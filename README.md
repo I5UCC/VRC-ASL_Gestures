@@ -11,6 +11,10 @@ This Repository has different gesture controllers that can be used, dependent on
 
 You can find the standard controls for them [here](https://github.com/I5UCC/VRC-ASL_Gestures#controls)
 
+***Currently working on:***
+- Switching back to anystate transitions for both GeneralVR versions (As vrchat doesnt update it correctly sometimes over the network)
+- Fixing a multitude of bugs of the General VR Thumbparams version
+
 # ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v2.0.3/VRC-ASL_Gestures_v2.0.3.unitypackage)
 
 ## If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or text me directly on Discord. **I5UCC#6781**. 
