@@ -9,15 +9,13 @@ This Repository has different gesture controllers that can be used, dependent on
   - using [ThumbParams](https://github.com/I5UCC/VRC-ASL_Gestures/blob/954e2dc852c1f07d76ef352c9473eb8412aaf3a1/ThumbParamsInfo.md). ***(Only Recommended if you use a Controller grip)*** - ALPHA, please report any issues with it. - 
   - without any additional programs ***(Left/Right Hand Dominant versions available)***.
 
-You can find the standard controls for them [here](https://github.com/I5UCC/VRC-ASL_Gestures#controls)
-
-# ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v2.0.3/VRC-ASL_Gestures_v2.0.3.unitypackage)
-
 ### If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or text me directly on Discord. **I5UCC#6781**. 
 
 ### If there are any issues please read the [FAQ](#faq) and [ISSUES](https://github.com/I5UCC/VRC-ASL_Gestures/issues) first, then create an issue!<br/>
 
 ### If you made any alternative animations for different bases that you want to have added, create a pull request for it.
+
+# ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v2.0.3/VRC-ASL_Gestures_v2.0.3.unitypackage)
 
 # [Avatar Setup](https://github.com/I5UCC/VRC-ASL_Gestures/blob/20e052b81f5b873e2009c377dbc2d931c9fd4780/Setup.md)
 
