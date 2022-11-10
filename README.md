@@ -171,3 +171,5 @@ VRC Gesture Alias | Base <br/>(Gesture on Dominant Hand) | Combo1 <br/>(Base/Com
 "Alternative Animations" folder, That you are able to use too. 
 - What if my Avatar uses Write Defaults on?
   - Shouldn't be a problem. you can set all of the animations WD on if you use WD in your Gesture Layer, that shouldn't cause problems, I would still recommend having WD off, as VRChat recommends it.
+- When do you update/fix bugs?
+  - Whenever I have time for it. I also have a life of my own and cant always work on my other projects. This is something I did in my spare time to provide for free and its gonna stay like that of course. Please keep that in mind. Problems with the Index version of the controllers are gonna be updated faster then the GeneralVR ones, as I currently only own an Index.
