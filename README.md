@@ -23,7 +23,7 @@ This Repository has different gesture controllers that can be used, dependent on
 
 ## Troubleshoot
 
-If you have problems with this ThumbParamsOSC, try any of these to fix it then create an Issue in the repository:
+If you have problems with ThumbParamsOSC, try any of these to fix it then create an Issue in the repository:
 - Restart Thumbparams and SteamVR
 - Turn OSC OFF and ON
 - Reset OSC Config
