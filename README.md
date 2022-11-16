@@ -21,7 +21,7 @@ This Repository has different gesture controllers that can be used, dependent on
 
 # [Controls](https://github.com/I5UCC/VRC-ASL_Gestures/blob/3484bdb7e4780a9172eed7b5eba9af12189baf7b/Controls.md)
 
-## Troubleshoot
+## Troubleshoot ThumbParamsOSC
 
 If you have problems with ThumbParamsOSC, try any of these to fix it then create an Issue in the repository:
 - Restart Thumbparams and SteamVR
