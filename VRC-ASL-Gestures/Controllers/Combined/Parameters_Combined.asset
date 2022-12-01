@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: Parameters_ThumbParams
+  m_Name: Parameters_Combined
   m_EditorClassIdentifier: 
   parameters:
   - name: LeftThumb
@@ -21,7 +21,31 @@ MonoBehaviour:
     valueType: 0
     saved: 0
     defaultValue: 0
+  - name: LeftTrigger
+    valueType: 1
+    saved: 0
+    defaultValue: 0
+  - name: RightTrigger
+    valueType: 1
+    saved: 0
+    defaultValue: 0
   - name: SignsDisabled
     valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: ControllerType
+    valueType: 0
     saved: 0
+    defaultValue: 0
+  - name: ComboSignIndex
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+  - name: IsLeftHanded
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+  - name: IsIndex
+    valueType: 2
+    saved: 1
     defaultValue: 0

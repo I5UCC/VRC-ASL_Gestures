@@ -32,32 +32,35 @@ namespace I5UCC.VRCASLGestures
 
         private readonly string[] controllerPath =
         {
-            "Assets/VRC-ASL_Gestures/IndexVR/Thumbparams/ASLGestures_Index_Thumbparams.controller",
-            "Assets/VRC-ASL_Gestures/IndexVR/Without/ASLGestures_Index_NoMod_RightHandDominant.controller",
-            "Assets/VRC-ASL_Gestures/IndexVR/Without/ASLGestures_Index_NoMod_LeftHandDominant.controller",
-            "Assets/VRC-ASL_Gestures/GeneralVR/ThumbParams/ASLGestures_GeneralVR_Thumbparams.controller",
-            "Assets/VRC-ASL_Gestures/GeneralVR/Without/ASLGestures_GeneralVR_RightHandDominant.controller",
-            "Assets/VRC-ASL_Gestures/GeneralVR/Without/ASLGestures_GeneralVR_LeftHandDominant.controller"
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Thumbparams/ASLGestures_Index_Thumbparams.controller",
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/ASLGestures_Index_NoMod_RightHandDominant.controller",
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/ASLGestures_Index_NoMod_LeftHandDominant.controller",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/ThumbParams/ASLGestures_GeneralVR_Thumbparams.controller",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/ASLGestures_GeneralVR_RightHandDominant.controller",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/ASLGestures_GeneralVR_LeftHandDominant.controller",
+            "Assets/VRC-ASL_Gestures/Controllers/Combined/ASLGestures_Combined_Full.controller"
         };
         
         private readonly string[] parameterPath =
         {
-            "Assets/VRC-ASL_Gestures/IndexVR/Thumbparams/Parameters_ThumbParams.asset",
-            "Assets/VRC-ASL_Gestures/IndexVR/Without/Parameters_NoMod.asset",
-            "Assets/VRC-ASL_Gestures/IndexVR/Without/Parameters_NoMod.asset",
-            "Assets/VRC-ASL_Gestures/GeneralVR/ThumbParams/Parameters_GeneralVR_Thumbparams.asset",
-            "Assets/VRC-ASL_Gestures/GeneralVR/Without/Parameters_GeneralVR.asset",
-            "Assets/VRC-ASL_Gestures/GeneralVR/Without/Parameters_GeneralVR.asset"
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Thumbparams/Parameters_ThumbParams.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/Parameters_NoMod.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/Parameters_NoMod.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/ThumbParams/Parameters_GeneralVR_Thumbparams.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/Parameters_GeneralVR.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/Parameters_GeneralVR.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/Combined/Parameters_Combined.asset"
         };
 
         private readonly string[] menuPath =
         {
-            "Assets/VRC-ASL_Gestures/IndexVR/Thumbparams/Menu_Index_Mod.asset",
-            "Assets/VRC-ASL_Gestures/IndexVR/Without/Menu_Index_NoMod.asset",
-            "Assets/VRC-ASL_Gestures/IndexVR/Without/Menu_Index_NoMod.asset",
-            "Assets/VRC-ASL_Gestures/GeneralVR/ThumbParams/Menu_GeneralVR_Thumbparams.asset",
-            "Assets/VRC-ASL_Gestures/GeneralVR/Without/Menu_GeneralVR.asset",
-            "Assets/VRC-ASL_Gestures/GeneralVR/Without/Menu_GeneralVR.asset"
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Thumbparams/Menu_Index_Mod.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/Menu_Index_NoMod.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/Menu_Index_NoMod.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/ThumbParams/Menu_GeneralVR_Thumbparams.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/Menu_GeneralVR.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/Menu_GeneralVR.asset",
+            "Assets/VRC-ASL_Gestures/Controllers/Combined/Menu_Combined.asset"
         };
 
         private readonly int[] cost =
@@ -67,7 +70,8 @@ namespace I5UCC.VRCASLGestures
             1,
             33,
             9,
-            9
+            9,
+            51
         };
 
         private readonly int layerindex = 2; //Gesture Controller
@@ -139,31 +143,34 @@ namespace I5UCC.VRCASLGestures
             {
                 EditorGUILayout.LabelField("Controller Type", titleStyle);
                 EditorGUILayout.Space();
-                ControllerType = EditorGUILayout.Popup(ControllerType, new string[2] {
+                ControllerType = EditorGUILayout.Popup(ControllerType, new string[3] {
                     "Index",
-                    "Oculus Touch"
+                    "Oculus Touch",
+                    "Combined"
                 });
 
-                EditorGUILayout.Space();
-                EditorGUILayout.LabelField("Use Thumbparams?", titleStyle);
-                EditorGUILayout.Space();
-                if (GUILayout.Button("More information on Thumbparams"))
-                    Application.OpenURL("https://github.com/I5UCC/VRC-ASL_Gestures/blob/8f23c2ea70f1a50b5e6349252b48f22788cc0955/ThumbParamsInfo.md");
-
-                UseThumbparams = EditorGUILayout.Popup(UseThumbparams, new string[2] {
-                    "No",
-                    "Yes (Recommended)"
-                });
-
-                if (UseThumbparams == 0)
-                {
+                if (ControllerType != 2) {
+                                    EditorGUILayout.Space();
+                    EditorGUILayout.LabelField("Use Thumbparams?", titleStyle);
                     EditorGUILayout.Space();
-                    EditorGUILayout.LabelField("Dominant Hand", titleStyle);
+                    if (GUILayout.Button("More information on Thumbparams"))
+                        Application.OpenURL("https://github.com/I5UCC/VRC-ASL_Gestures/blob/8f23c2ea70f1a50b5e6349252b48f22788cc0955/ThumbParamsInfo.md");
 
-                    DominantHand = EditorGUILayout.Popup(DominantHand, new string[2] {
-                        "Right",
-                        "Left"
+                    UseThumbparams = EditorGUILayout.Popup(UseThumbparams, new string[2] {
+                        "No",
+                        "Yes (Recommended)"
                     });
+
+                    if (UseThumbparams == 0)
+                    {
+                        EditorGUILayout.Space();
+                        EditorGUILayout.LabelField("Dominant Hand", titleStyle);
+
+                        DominantHand = EditorGUILayout.Popup(DominantHand, new string[2] {
+                            "Right",
+                            "Left"
+                        });
+                    }
                 }
 
                 type = GetControllerType();
@@ -262,6 +269,8 @@ namespace I5UCC.VRCASLGestures
                 return 4;
             else if (ControllerType == 1 && UseThumbparams == 0 && DominantHand == 1)
                 return 5;
+            else if (ControllerType == 2)
+                return 6;
             return -1;
         }
 
@@ -321,9 +330,8 @@ namespace I5UCC.VRCASLGestures
         private void MergeController(VRCAvatarDescriptor descriptor, AnimatorController controllerToAdd)
         {
             AnimatorController controllerOriginal = (AnimatorController)descriptor.baseAnimationLayers[2].animatorController;
-            
-            AvatarMask lefthandmask = AssetDatabase.LoadAssetAtPath("Assets/VRCSDK/Examples3/Animation/Masks/vrc_Hand Left.mask", typeof(AvatarMask)) as AvatarMask;
-            AvatarMask righthandmask = AssetDatabase.LoadAssetAtPath("Assets/VRCSDK/Examples3/Animation/Masks/vrc_Hand Right.mask", typeof(AvatarMask)) as AvatarMask;
+            AvatarMask lefthandmask = AssetDatabase.LoadAssetAtPath("Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/Masks/vrc_Hand Left.mask", typeof(AvatarMask)) as AvatarMask;
+            AvatarMask righthandmask = AssetDatabase.LoadAssetAtPath("Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/Masks/vrc_Hand Right.mask", typeof(AvatarMask)) as AvatarMask;
 
             for (int i = 1; i < controllerOriginal.layers.Length; i++)
                 if (controllerOriginal.layers[i].avatarMask.Equals(lefthandmask) || controllerOriginal.layers[i].avatarMask.Equals(righthandmask))

@@ -10,14 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1506855854, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: Parameters_GeneralVR
+  m_Name: Parameters_ThumbParams
   m_EditorClassIdentifier: 
   parameters:
-  - name: SignsDisabled
-    valueType: 2
-    saved: 0
-    defaultValue: 0
-  - name: ComboSignIndex
+  - name: LeftThumb
     valueType: 0
     saved: 0
+    defaultValue: 0
+  - name: RightThumb
+    valueType: 0
+    saved: 0
+    defaultValue: 0
+  - name: SignsDisabled
+    valueType: 2
+    saved: 1
     defaultValue: 0
