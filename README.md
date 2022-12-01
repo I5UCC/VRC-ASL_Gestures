@@ -8,6 +8,7 @@ This Repository has different gesture controllers that can be used, dependent on
 - GeneralVR ***(made for Oculus Touch)***
   - using [ThumbParams](https://github.com/I5UCC/VRC-ASL_Gestures/blob/954e2dc852c1f07d76ef352c9473eb8412aaf3a1/ThumbParamsInfo.md). ***(Only Recommended if you use a Controller grip)*** - ALPHA, please report any issues with it. - 
   - without any additional programs ***(Left/Right Hand Dominant versions available)***.
+ - A combined Controller that combines all of the Options above! (Great for public or sold avatars)
 
 ### If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or text me directly on Discord. **I5UCC#6781**. 
 
