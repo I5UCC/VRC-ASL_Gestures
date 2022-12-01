@@ -146,7 +146,7 @@ namespace I5UCC.VRCASLGestures
                 ControllerType = EditorGUILayout.Popup(ControllerType, new string[3] {
                     "Index",
                     "Oculus Touch",
-                    "Combined"
+                    "Combined (Recommended for Public/Sold Avatars)"
                 });
 
                 if (ControllerType != 2) {
