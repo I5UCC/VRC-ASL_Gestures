@@ -42,3 +42,13 @@ If you have problems with ThumbParamsOSC, try any of these to fix it then create
 "Alternative Animations" folder, That you are able to use too. 
 - What if my Avatar uses Write Defaults on?
   - Shouldn't be a problem. you can set all of the animations WD on if you use WD in your Gesture Layer, that shouldn't cause problems, I would still recommend having WD off, as VRChat recommends it.
+  
+# VRChat Content Creation Terms of Use
+
+- Don't claim as your own.
+
+- Can be used Personally and Commercially.
+
+- Can only be sold as part of a finished Avatar.
+
+- Credit I5UCC#6781 or github.com/I5UCC if used.
