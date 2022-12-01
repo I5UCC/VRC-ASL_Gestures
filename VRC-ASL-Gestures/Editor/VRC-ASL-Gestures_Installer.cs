@@ -146,11 +146,11 @@ namespace I5UCC.VRCASLGestures
                 ControllerType = EditorGUILayout.Popup(ControllerType, new string[3] {
                     "Index",
                     "Oculus Touch",
-                    "Combined (Recommended for Public/Sold Avatars)"
+                    "Combined (Recommended for Public or Sold Avatars)"
                 });
 
                 if (ControllerType != 2) {
-                                    EditorGUILayout.Space();
+                    EditorGUILayout.Space();
                     EditorGUILayout.LabelField("Use Thumbparams?", titleStyle);
                     EditorGUILayout.Space();
                     if (GUILayout.Button("More information on Thumbparams"))
