@@ -20,7 +20,7 @@ This Repository has different gesture controllers that can be used, dependent on
 ### If you made any alternative animations for different bases that you want to have added, create a pull request for it.
 
 
-# ![Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/download/v2.0.3/VRC-ASL_Gestures_v2.0.3.unitypackage)
+# [Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/tag/v2.1.0)
 
 # [Avatar Setup](https://github.com/I5UCC/VRC-ASL_Gestures/blob/20e052b81f5b873e2009c377dbc2d931c9fd4780/Setup.md)
 
