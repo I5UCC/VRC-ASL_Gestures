@@ -55,4 +55,7 @@ If you have problems with ThumbParamsOSC, try any of these to fix it then create
 
 - Credit I5UCC#6781 or github.com/I5UCC if used.
 
+# Credit
+- [VRLabs](https://github.com/VRLabs) for their AnimatorCloner and AV3-Manager - Thank you
+
 <a href='https://ko-fi.com/i5ucc' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
