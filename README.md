@@ -26,16 +26,6 @@ This Repository has different gesture controllers that can be used, dependent on
 
 # [Controls](https://github.com/I5UCC/VRC-ASL_Gestures/blob/3484bdb7e4780a9172eed7b5eba9af12189baf7b/Controls.md)
 
-## Troubleshoot ThumbParamsOSC
-
-If you have problems with this program, try any of these to fix it then create an Issue in the repository:
-- Restart ThumbParamsOSC.exe and SteamVR
-- Turn OSC OFF and ON
-- Reset OSC Config
-- Reset Avatar
-- Delete the folder called `OSC` in `%APPDATA%\..\LocalLow\VRChat\VRChat` and restart VRChat.
-- ***(Advanced) [Add the params manually to the OSC config of your avatar, if they dont exist there already](https://docs.vrchat.com/docs/osc-avatar-parameters)***
-
 # FAQ
 
 - Why cant people see my signs sometimes?
