@@ -41,7 +41,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b47898ec275ebd74e95038caec45a6bd, type: 2}
-    m_Threshold: 0.001
+    m_Threshold: 0.8
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -50,7 +50,7 @@ BlendTree:
   m_BlendParameter: GestureLeftWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
-  m_MaxThreshold: 0.001
+  m_MaxThreshold: 0.8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -420,7 +420,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: d6d293953aaedac4fa53405e426bc7c1, type: 2}
-    m_Threshold: 0.001
+    m_Threshold: 0.8
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -429,7 +429,7 @@ BlendTree:
   m_BlendParameter: GestureRightWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
-  m_MaxThreshold: 0.001
+  m_MaxThreshold: 0.8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -474,7 +474,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: e4379f9c9478ef347b76911edf0df819, type: 2}
-    m_Threshold: 0.001
+    m_Threshold: 0.8
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -483,7 +483,7 @@ BlendTree:
   m_BlendParameter: GestureLeftWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
-  m_MaxThreshold: 0.001
+  m_MaxThreshold: 0.8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -505,7 +505,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b47898ec275ebd74e95038caec45a6bd, type: 2}
-    m_Threshold: 0.001
+    m_Threshold: 0.8
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -514,7 +514,7 @@ BlendTree:
   m_BlendParameter: GestureRightWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
-  m_MaxThreshold: 0.001
+  m_MaxThreshold: 0.8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -567,7 +567,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: e4379f9c9478ef347b76911edf0df819, type: 2}
-    m_Threshold: 0.001
+    m_Threshold: 0.8
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -576,7 +576,7 @@ BlendTree:
   m_BlendParameter: GestureRightWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
-  m_MaxThreshold: 0.001
+  m_MaxThreshold: 0.8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -875,7 +875,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: d6d293953aaedac4fa53405e426bc7c1, type: 2}
-    m_Threshold: 0.001
+    m_Threshold: 0.8
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -884,7 +884,7 @@ BlendTree:
   m_BlendParameter: GestureLeftWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
-  m_MaxThreshold: 0.001
+  m_MaxThreshold: 0.8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -1412,15 +1412,15 @@ AnimatorStateMachine:
   - {fileID: 8577048242636549992}
   - {fileID: 8124239137968720460}
   m_StateMachineTransitions:
-  - first: {fileID: -7817270336511365273}
-    second: []
   - first: {fileID: 750801781424538938}
+    second: []
+  - first: {fileID: 8849358830404351107}
     second: []
   - first: {fileID: 3099581068081518978}
     second: []
   - first: {fileID: 7371287491036203472}
     second: []
-  - first: {fileID: 8849358830404351107}
+  - first: {fileID: -7817270336511365273}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 440, y: -10, z: 0}
@@ -2318,7 +2318,7 @@ AnimatorTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions: []
-  m_DstStateMachine: {fileID: -8318895297104019378}
+  m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
@@ -3553,7 +3553,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a239db9c3d174b047be65cc0e3771c8d, type: 2}
-    m_Threshold: 0.001
+    m_Threshold: 0.8
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -3562,7 +3562,7 @@ BlendTree:
   m_BlendParameter: GestureLeftWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
-  m_MaxThreshold: 0.001
+  m_MaxThreshold: 0.8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -4934,43 +4934,43 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: GestureRight
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: GestureLeftWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: GestureRightWeight
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: LeftThumb
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: RightThumb
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: SignsDisabled
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -8267,7 +8267,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: a239db9c3d174b047be65cc0e3771c8d, type: 2}
-    m_Threshold: 0.001
+    m_Threshold: 0.8
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -8276,7 +8276,7 @@ BlendTree:
   m_BlendParameter: GestureRightWeight
   m_BlendParameterY: GestureLeftWeight
   m_MinThreshold: 0
-  m_MaxThreshold: 0.001
+  m_MaxThreshold: 0.8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
