@@ -40,7 +40,7 @@
 
 | Base | Thumb Position | Result |
 | --- | --- | --- |
-| Neutral | Not Touching | C Hand |
+| Neutral | Not Touching | Trigger(C Hand->Claw Hand) |
 | Neutral | A Button | Open-8-Hand |
 | Neutral | B Button | Rested-Hand |
 | Neutral | Thumbstick | Claw Hand |
@@ -51,8 +51,8 @@
 | Fingerpoint | B Button | D-Hand |
 | Fingerpoint | Thumbstick | K-Hand |
 | Victory | A Button | R-Hand |
-| Victory | B Button | V-Hand |
-| Victory | Thumbstick | U-Hand |
+| Victory | B Button | U-Hand |
+| Victory | Thumbstick | V-Hand |
 | RockNRoll | A Button | W-Hand |
 | RockNRoll | B Button | Y-Hand |
 | RockNRoll | Thumbstick | F-Hand |
