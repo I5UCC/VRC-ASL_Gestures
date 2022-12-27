@@ -36,7 +36,7 @@ This Repository has different gesture controllers that can be used, dependent on
 - What if my Avatar uses Write Defaults on?
   - Shouldn't be a problem. you can set all of the animations WD on if you use WD in your Gesture Layer, that shouldn't cause problems, I would still recommend having WD off, as VRChat recommends it.
   
-# VRChat Content Creation Terms of Use
+# Extended Terms and Conditions for VRChat Content Creation
 
 - Don't claim as your own.
 
@@ -44,7 +44,7 @@ This Repository has different gesture controllers that can be used, dependent on
 
 - Can only be sold as part of a finished Avatar.
 
-- Credit I5UCC#6781 or github.com/I5UCC if used.
+- Credit I5UCC#6781 or github.com/I5UCC or gumroad.com/I5UCC if used.
 
 # Credit
 - [VRLabs](https://github.com/VRLabs) for their AnimatorCloner and AV3-Manager - Thank you
