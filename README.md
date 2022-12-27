@@ -44,7 +44,7 @@ This Repository has different gesture controllers that can be used, dependent on
 
 - Can only be sold as part of a finished Avatar.
 
-- Credit I5UCC#6781 or github.com/I5UCC or gumroad.com/I5UCC if used.
+- Credit I5UCC#6781 or github.com/I5UCC or i5ucc.gumroad.com if used.
 
 # Credit
 - [VRLabs](https://github.com/VRLabs) for their AnimatorCloner and AV3-Manager - Thank you
