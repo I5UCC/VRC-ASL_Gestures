@@ -13,18 +13,22 @@ This Repository has different gesture controllers that can be used, dependent on
 
 ### If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or text me directly on Discord. **I5UCC#6781**. 
 
-### If there are any issues with a ThumbparamsOSC controller [read and follow the troubleshoot](https://github.com/I5UCC/VRCThumbParamsOSC#osc-troubleshoot)
-
 ### If there are any other issues please read the [FAQ](#faq) and [ISSUES](https://github.com/I5UCC/VRC-ASL_Gestures/issues) first, then create an issue!<br/>
-
-### If you made any alternative animations for different bases that you want to have added, create a pull request for it.
-
 
 # [Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/tag/v2.1.0)
 
 # [Avatar Setup](https://github.com/I5UCC/VRC-ASL_Gestures/blob/20e052b81f5b873e2009c377dbc2d931c9fd4780/Setup.md)
 
 # [Controls](https://github.com/I5UCC/VRC-ASL_Gestures/blob/3484bdb7e4780a9172eed7b5eba9af12189baf7b/Controls.md)
+
+## ThumbparamsOSC Troubleshoot
+
+If you have problems with ThumbparamsOSC, try this to fix it:
+- Close VRChat.
+- Open 'Run' in Windows (Windows Key + R)
+- Type in `%APPDATA%\..\LocalLow\VRChat\VRChat`
+- Delete the **contents** of the OSC folder.
+- Startup VRChat again and it should work.
 
 # FAQ
 
