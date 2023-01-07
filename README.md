@@ -35,7 +35,7 @@ If you have problems with ThumbparamsOSC, try this to fix it:
 - Why cant people see my signs sometimes?
   - Only people who have your avatar shown or Custom animations enabled in Safety-settings are able to see the additional signs, make sure that is the case.
 - The animations don't fit my Avatar.
-  - The animations used in this Gesture Controller are made with [Pandaabear's base](https://pandaabear.gumroad.com/l/pAxQR). However they should work with basically any Avatar but might require small adjustments for more complex signs like E-Hand or R-Hand. There are some alternative Animations in the 
+  - The animations used in this Gesture Controller are made with [Pandaabear's base](https://pandaabear.gumroad.com/l/pAxQR). However they should work with basically any Avatar but might require small adjustments for more complex signs like E,M,N,R. There are some alternative Animations in the 
 "Alternative Animations" folder, That you are able to use too. 
 - What if my Avatar uses Write Defaults on?
   - Shouldn't be a problem. you can set all of the animations WD on if you use WD in your Gesture Layer, that shouldn't cause problems, I would still recommend having WD off, as VRChat recommends it.
