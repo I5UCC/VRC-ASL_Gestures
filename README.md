@@ -39,6 +39,8 @@ If you have problems with ThumbparamsOSC, try this to fix it:
 "Alternative Animations" folder, That you are able to use too. 
 - What if my Avatar uses Write Defaults on?
   - Shouldn't be a problem. you can set all of the animations WD on if you use WD in your Gesture Layer, that shouldn't cause problems, I would still recommend having WD off, as VRChat recommends it.
+- My hands aren't synced between quest and PC
+  - make sure that the parameters are in the same position between both avatars, as [parameters are synced by their position in the parameters list and their parameter type, not by the names of the parameters](https://docs.vrchat.com/docs/animator-parameters#cross-platform-parameter-sync)
   
 # Extended Terms and Conditions for VRChat Content Creation
 
