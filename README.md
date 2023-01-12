@@ -1,3 +1,4 @@
+[![Github All Releases](https://img.shields.io/github/downloads/i5ucc/VRC-ASL_Gestures/total.svg)](https://github.com/I5UCC/VRC-ASL_Gestures/releases/tag/v2.1.1)
 # <img src="https://user-images.githubusercontent.com/43730681/176920686-1539fd29-3dad-46a8-9f88-f938d8639b54.png" width="32" height="32">  VRC-ASL_Gestures
 Gesture Controllers for VRChat 3.0 Avatars to be able to do more ASL Handshapes. 
 
