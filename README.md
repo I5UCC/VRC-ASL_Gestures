@@ -27,8 +27,8 @@ This Repository has different gesture controllers that can be used, dependent on
 If you have problems with ThumbparamsOSC, try this to fix it:
 - Close VRChat.
 - Open 'Run' in Windows (Windows Key + R)
-- Type in `%APPDATA%\..\LocalLow\VRChat\VRChat`
-- Delete the ***contents*** of the OSC folder. (***If you use [VOR](https://github.com/SutekhVRC/VOR) you probably dont want to delete the folder called 'VOR'***)
+- Type in `%APPDATA%\..\LocalLow\VRChat\VRChat\OSC`
+- Delete the folders that start with 'usr_*'.
 - Startup VRChat again and it should work.
 
 # FAQ
