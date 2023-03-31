@@ -13,7 +13,7 @@ This Repository has different gesture controllers that can be used, dependent on
  
 ### [Discord Support Server](https://discord.gg/rqcWHje3hn)
 
-### If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or text me directly on Discord. **I5UCC#6781**. 
+### If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or drop in on the Discord Server. 
 
 ### If there are any other issues please read the [FAQ](#faq) and [ISSUES](https://github.com/I5UCC/VRC-ASL_Gestures/issues) first, then create an issue!<br/>
 
