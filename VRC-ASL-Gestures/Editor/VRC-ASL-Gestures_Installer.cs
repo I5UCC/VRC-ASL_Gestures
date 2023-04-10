@@ -32,35 +32,35 @@ namespace I5UCC.VRCASLGestures
 
         private readonly string[] controllerPath =
         {
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Thumbparams/ASLGestures_Index_Thumbparams.controller",
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/ASLGestures_Index_NoMod_RightHandDominant.controller",
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/ASLGestures_Index_NoMod_LeftHandDominant.controller",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/ThumbParams/ASLGestures_GeneralVR_Thumbparams.controller",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/ASLGestures_GeneralVR_RightHandDominant.controller",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/ASLGestures_GeneralVR_LeftHandDominant.controller",
-            "Assets/VRC-ASL_Gestures/Controllers/Combined/ASLGestures_Combined_Full.controller"
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Thumbparams/ASLGestures_Index_Thumbparams.controller",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Without/ASLGestures_Index_NoMod_RightHandDominant.controller",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Without/ASLGestures_Index_NoMod_LeftHandDominant.controller",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/ThumbParams/ASLGestures_GeneralVR_Thumbparams.controller",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/ASLGestures_GeneralVR_RightHandDominant.controller",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/ASLGestures_GeneralVR_LeftHandDominant.controller",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/Combined/ASLGestures_Combined_Full.controller"
         };
         
         private readonly string[] parameterPath =
         {
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Thumbparams/Parameters_ThumbParams.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/Parameters_NoMod.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/Parameters_NoMod.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/ThumbParams/Parameters_GeneralVR_Thumbparams.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/Parameters_GeneralVR.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/Parameters_GeneralVR.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/Combined/Parameters_Combined.asset"
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Thumbparams/Parameters_ThumbParams.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Without/Parameters_NoMod.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Without/Parameters_NoMod.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/ThumbParams/Parameters_GeneralVR_Thumbparams.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/Parameters_GeneralVR.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/Parameters_GeneralVR.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/Combined/Parameters_Combined.asset"
         };
 
         private readonly string[] menuPath =
         {
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Thumbparams/Menu_Index_Mod.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/Menu_Index_NoMod.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/IndexVR/Without/Menu_Index_NoMod.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/ThumbParams/Menu_GeneralVR_Thumbparams.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/Menu_GeneralVR.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/GeneralVR/Without/Menu_GeneralVR.asset",
-            "Assets/VRC-ASL_Gestures/Controllers/Combined/Menu_Combined.asset"
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Thumbparams/Menu_Index_Mod.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Without/Menu_Index_NoMod.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Without/Menu_Index_NoMod.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/ThumbParams/Menu_GeneralVR_Thumbparams.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/Menu_GeneralVR.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/Menu_GeneralVR.asset",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/Combined/Menu_Combined.asset"
         };
 
         private readonly int[] cost =
@@ -129,7 +129,7 @@ namespace I5UCC.VRCASLGestures
 
         private void DrawSimple()
         {
-            Texture banner = (Texture)AssetDatabase.LoadAssetAtPath("Assets/VRC-ASL_Gestures/VRC ASL.png", typeof(Texture));
+            Texture banner = (Texture)AssetDatabase.LoadAssetAtPath("Packages/com.i5ucc.vrcaslgestures/VRC ASL.png", typeof(Texture));
             GUI.DrawTexture(new Rect(20, 10, 60, 60), banner, ScaleMode.StretchToFill, true, 10.0F);
             EditorGUILayout.Space(12);
             EditorGUILayout.LabelField("\tVRC-ASL_Gestures", titleStyle2);
