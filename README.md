@@ -17,7 +17,18 @@ This Repository has different gesture controllers that can be used, dependent on
 
 ### If there are any other issues please read the [FAQ](#faq) and [ISSUES](https://github.com/I5UCC/VRC-ASL_Gestures/issues) first, then create an issue!<br/>
 
-# [Download here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/tag/v2.1.0)
+# Download
+
+Either download the latest release from [here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest), or add my Repository to VCC (VRChat Creator Companion):
+
+1. Open VCC
+2. Click "Settings" in the bottom left
+3. Click the "Packages" tab at the top
+4. Click "Add Repository" in the top right
+5. Paste "https://i5ucc.github.io/vpm/main.json" into the text field and click Add
+6. Click "I understand, Add Repository" in the popup after reading its contents
+7. Activate the checkbox next to the repository "I5UCC's Unity Packages"
+
 
 # [Avatar Setup](https://github.com/I5UCC/VRC-ASL_Gestures/blob/20e052b81f5b873e2009c377dbc2d931c9fd4780/Setup.md)
 
