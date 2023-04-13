@@ -11,7 +11,7 @@ This Repository has different gesture controllers that can be used, dependent on
   - without any additional programs ***(Left/Right Hand Dominant versions available)***.
  - A combined Controller that combines all of the Options above! ***(Great for public or sold avatars)***
  
-### [Discord Support Server](https://discord.gg/rqcWHje3hn)
+### [<img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg"  width="20" height="20"> Discord Support Server](https://discord.gg/rqcWHje3hn)
 
 ### If there are any questions or suggestions about these Gesture Controller, feel free to create a [DISCUSSION](https://github.com/I5UCC/VRC-ASL_Gestures/discussions) in this repository or drop in on the Discord Server. 
 
