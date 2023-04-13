@@ -25,11 +25,11 @@ Either download the latest release from [here](https://github.com/I5UCC/VRC-ASL_
 2. Click "Settings" in the bottom left
 3. Click the "Packages" tab at the top
 4. Click "Add Repository" in the top right
-5. Paste "https://i5ucc.github.io/vpm/VRC-ASL_Gestures.json" into the text field and click "Add"
+5. Paste `https://i5ucc.github.io/vpm/VRC-ASL_Gestures.json"` into the text field and click "Add"
 6. Click "I understand, Add Repository" in the popup after reading its contents
 7. Activate the checkbox next to the repository "VRC-ASL_Gestures"
 
-PS: You can also add "https://i5ucc.github.io/vpm/main.json" to add all of my projects to VCC. (Currently only this one anyway)
+PS: You can also add `https://i5ucc.github.io/vpm/main.json` to add all of my projects to VCC. (Currently only this one anyway)
 
 # [Avatar Setup](https://github.com/I5UCC/VRC-ASL_Gestures/blob/20e052b81f5b873e2009c377dbc2d931c9fd4780/Setup.md)
 
