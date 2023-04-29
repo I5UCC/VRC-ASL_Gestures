@@ -31,9 +31,9 @@ Either download the latest release from [here](https://github.com/I5UCC/VRC-ASL_
 
 PS: You can also add `https://i5ucc.github.io/vpm/main.json` to add all of my projects (and future ones) to VCC.
 
-# [Avatar Setup](https://github.com/I5UCC/VRC-ASL_Gestures/blob/20e052b81f5b873e2009c377dbc2d931c9fd4780/Setup.md)
+# [Avatar Setup](https://github.com/I5UCC/VRC-ASL_Gestures/wiki/Avatar-Setup)
 
-# [Controls](https://github.com/I5UCC/VRC-ASL_Gestures/blob/3484bdb7e4780a9172eed7b5eba9af12189baf7b/Controls.md)
+# [Controls](https://github.com/I5UCC/VRC-ASL_Gestures/wiki/Controls)
 
 ## ThumbparamsOSC Troubleshoot
 
