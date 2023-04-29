@@ -20,7 +20,10 @@ This Repository has different gesture controllers that can be used, dependent on
 
 Either download the latest release from [here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest), or add my Repository to VCC (VRChat Creator Companion): <br>
 
-[<img src="https://user-images.githubusercontent.com/43730681/235303509-fe289438-0b0e-498b-8d38-68355fb99619.png"  width="94" height="32">](https://i5ucc.github.io/vpm/main.html)
+[<img src="https://user-images.githubusercontent.com/43730681/235304101-1b635809-ef27-47ca-bc8f-93b35aa34ae8.png"  width="217" height="35">](https://i5ucc.github.io/vpm/VRC-ASL_Gestures.html) <br>
+or <br>
+
+[<img src="https://user-images.githubusercontent.com/43730681/235304229-ce2b4689-4945-4282-967e-40bfbf8ebf54.png"  width="181" height="35">](https://i5ucc.github.io/vpm/main.html) <br>
 
 Manually adding to VCC:
 
