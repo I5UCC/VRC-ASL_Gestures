@@ -1,4 +1,3 @@
-
 # <img src="https://user-images.githubusercontent.com/43730681/176920686-1539fd29-3dad-46a8-9f88-f938d8639b54.png" width="32" height="32">  VRC-ASL_Gestures [![Github All Releases](https://img.shields.io/github/downloads/i5ucc/VRC-ASL_Gestures/total.svg)](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest) <a href='https://ko-fi.com/i5ucc' target='_blank'><img height='35' style='border:0px;height:25px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 Gesture Controllers for VRChat 3.0 Avatars to be able to do more ASL Handshapes. 
 
@@ -19,7 +18,11 @@ This Repository has different gesture controllers that can be used, dependent on
 
 # Download
 
-Either download the latest release from [here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest), or add my Repository to VCC (VRChat Creator Companion):
+Either download the latest release from [here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest), or add my Repository to VCC (VRChat Creator Companion): <br>
+
+[<img src="https://user-images.githubusercontent.com/43730681/235303509-fe289438-0b0e-498b-8d38-68355fb99619.png"  width="94" height="32">](https://i5ucc.github.io/vpm/main.html)
+
+Manually adding to VCC:
 
 1. Open VCC
 2. Click "Settings" in the bottom left
