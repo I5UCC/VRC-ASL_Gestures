@@ -16,7 +16,7 @@ This Repository has different gesture controllers that can be used, dependent on
 
 ### If there are any other issues please read the [FAQ](#faq) and [ISSUES](https://github.com/I5UCC/VRC-ASL_Gestures/issues) first, then create an issue!<br/>
 
-# Download
+# Download / Install
 
 Either download the latest release from [here](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest), or add my Repository to VCC (VRChat Creator Companion): <br>
 
