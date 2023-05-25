@@ -43,14 +43,7 @@ or <br>
 
 # [Controls](https://github.com/I5UCC/VRC-ASL_Gestures/wiki/Controls)
 
-## ThumbparamsOSC Troubleshoot
-
-If you have problems with ThumbparamsOSC, try this to fix it:
-- Close VRChat.
-- Open 'Run' in Windows (Windows Key + R)
-- Type in `%APPDATA%\..\LocalLow\VRChat\VRChat\OSC`
-- Delete the folders that start with 'usr_*'.
-- Startup VRChat again and it should work.
+# [ThumbparamsOSC Troubleshoot](https://github.com/I5UCC/VRCThumbParamsOSC#osc-troubleshoot)
 
 # FAQ
 
