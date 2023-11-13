@@ -6,9 +6,11 @@ This Repository has different gesture controllers that can be used, dependent on
   - using [ThumbParams](https://github.com/I5UCC/VRCThumbParamsOSC). (***Recommended***)
   - without any additional programs ***(Left/Right Hand Dominant versions available)***.
 - GeneralVR ***(made for Oculus Touch)***
-  - ***Experimental***, using [ThumbParams](https://github.com/I5UCC/VRCThumbParamsOSC) Cant support it myself as i don't own touch controllers, PR's welcome!
+  - ***Experimental****, using [ThumbParams](https://github.com/I5UCC/VRCThumbParamsOSC)
   - without any additional programs ***(Left/Right Hand Dominant versions available)***. (***Recommended***)
  - A combined Controller that combines all of the Options above! ***(Great for public or sold avatars)***
+
+**Cant support it myself as i don't own touch controllers, PR's welcome!*
  
 ### [<img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg"  width="20" height="20"> Discord Support Server](https://discord.gg/rqcWHje3hn)
 
