@@ -17,6 +17,7 @@ namespace I5UCC.VRCASLGestures
         private VRCAvatarDescriptor targetAvatar = null;
         private int ControllerType = 0;
         private int UseThumbparams = 1;
+        private int UseVRCF = 0;
         private int DominantHand = 0;
 
         private GUIStyle titleStyle = null;
@@ -30,6 +31,8 @@ namespace I5UCC.VRCASLGestures
 
         private bool showInfo = false;
 
+        private readonly string emptyControllerPath = "Packages/com.i5ucc.vrcaslgestures/Controllers/ASLGestures_Empty.controller";
+
         private readonly string[] controllerPath =
         {
             "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Thumbparams/ASLGestures_Index_Thumbparams.controller",
@@ -39,6 +42,17 @@ namespace I5UCC.VRCASLGestures
             "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/ASLGestures_GeneralVR_RightHandDominant.controller",
             "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/ASLGestures_GeneralVR_LeftHandDominant.controller",
             "Packages/com.i5ucc.vrcaslgestures/Controllers/Combined/ASLGestures_Combined_Full.controller"
+        };
+
+        private readonly string[] vrcfPrefabPath = 
+        {
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Thumbparams/VRCF_ASLGestures_Index_Thumbparams.prefab",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Without/VRCF_ASLGestures_Index_NoMod_RightHandDominant.prefab",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/IndexVR/Without/VRCF_ASLGestures_Index_NoMod_LeftHandDominant.prefab",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/ThumbParams/VRCF_ASLGestures_GeneralVR_Thumbparams.prefab",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/VRCF_ASLGestures_GeneralVR_RightHandDominant.prefab",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/Without/VRCF_ASLGestures_GeneralVR_LeftHandDominant.prefab",
+            "Packages/com.i5ucc.vrcaslgestures/Controllers/Combined/VRCF_ASLGestures_Combined_Full.prefab"
         };
         
         private readonly string[] parameterPath =
@@ -146,7 +160,7 @@ namespace I5UCC.VRCASLGestures
                 ControllerType = EditorGUILayout.Popup(ControllerType, new string[3] {
                     "Index",
                     "Oculus Touch",
-                    "Combined (Recommended for Public or Sold Avatars)"
+                    "Combined"
                 });
 
                 if (ControllerType != 2) {
@@ -154,11 +168,11 @@ namespace I5UCC.VRCASLGestures
                     EditorGUILayout.LabelField("Use Thumbparams?", titleStyle);
                     EditorGUILayout.Space();
                     if (GUILayout.Button("More information on Thumbparams"))
-                        Application.OpenURL("https://github.com/I5UCC/VRC-ASL_Gestures/blob/8f23c2ea70f1a50b5e6349252b48f22788cc0955/ThumbParamsInfo.md");
+                        Application.OpenURL("https://github.com/I5UCC/VRCThumbParamsOSC");
 
                     UseThumbparams = EditorGUILayout.Popup(UseThumbparams, new string[2] {
                         "No",
-                        "Yes (Recommended)"
+                        "Yes"
                     });
 
                     if (UseThumbparams == 0)
@@ -182,6 +196,11 @@ namespace I5UCC.VRCASLGestures
                 else
                     TotalCost = cost[type];
 
+                UseVRCF = EditorGUILayout.Popup("Use VRCFury Prefab?", UseVRCF, new string[2] {
+                    "No",
+                    "Yes"
+                });
+
                 showInfo = EditorGUILayout.Foldout(showInfo, "More Information", true);
 
 
@@ -201,6 +220,7 @@ namespace I5UCC.VRCASLGestures
 
                 if (TotalCost <= 256 && (targetAvatar.expressionsMenu == null || targetAvatar.expressionsMenu.controls.Count != 8))
                 {
+                    AnimatorController emptyAnimator = AssetDatabase.LoadAssetAtPath(emptyControllerPath, typeof(AnimatorController)) as AnimatorController;
                     animatorToAdd = AssetDatabase.LoadAssetAtPath(controllerPath[type], typeof(AnimatorController)) as AnimatorController;
                     parametersToAdd = AssetDatabase.LoadAssetAtPath(parameterPath[type], typeof(VRCExpressionParameters)) as VRCExpressionParameters;
                     menuToAdd = AssetDatabase.LoadAssetAtPath(menuPath[type], typeof(VRCExpressionsMenu)) as VRCExpressionsMenu;
@@ -212,6 +232,24 @@ namespace I5UCC.VRCASLGestures
 
                     if (GUILayout.Button("install"))
                     {
+                        if (UseVRCF == 1)
+                        {
+                            VrcFuryPrefabAlreadySet();
+                            if (targetAvatar.baseAnimationLayers[layerindex].isDefault || targetAvatar.baseAnimationLayers[layerindex].animatorController == null) {
+                                targetAvatar.baseAnimationLayers[layerindex].animatorController = emptyAnimator;
+                            }
+                            targetAvatar.baseAnimationLayers[layerindex].isDefault = false;
+                            GameObject vrcfPrefab = AssetDatabase.LoadAssetAtPath(vrcfPrefabPath[type], typeof(GameObject)) as GameObject;
+                            GameObject vrcf = Instantiate(vrcfPrefab);
+                            vrcf.name = vrcfPrefab.name;
+                            vrcf.transform.parent = targetAvatar.transform;
+                            vrcf.transform.localPosition = Vector3.zero;
+                            vrcf.transform.localRotation = Quaternion.identity;
+                            vrcf.transform.localScale = Vector3.one;
+                            AssetDatabase.SaveAssets();
+                            AssetDatabase.Refresh();
+                            return;
+                        }
                         targetAvatar.customizeAnimationLayers = true;
                         if (targetAvatar.baseAnimationLayers[layerindex].isDefault || targetAvatar.baseAnimationLayers[layerindex].animatorController == null || AnimatorAlreadySet())
                            targetAvatar.baseAnimationLayers[layerindex].animatorController = animatorToAdd;
@@ -357,6 +395,20 @@ namespace I5UCC.VRCASLGestures
                 if (p.name == name)
                     return true;
 
+            return false;
+        }
+
+        private bool VrcFuryPrefabAlreadySet()
+        {
+            string objectString = "VRCF_ASLGestures";
+            foreach (Transform child in targetAvatar.transform)
+            {
+                if (child.name.Contains(objectString))
+                {
+                    DestroyImmediate(child.gameObject);
+                    return true;
+                }
+            }
             return false;
         }
 

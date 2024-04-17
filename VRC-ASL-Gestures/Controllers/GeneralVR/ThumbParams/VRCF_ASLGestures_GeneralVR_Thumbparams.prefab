@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3127016797424424430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8757149145277266215}
+  - component: {fileID: 1265928160620448717}
+  - component: {fileID: 2339427119615218594}
+  m_Layer: 0
+  m_Name: VRCF_ASLGestures_GeneralVR_Thumbparams
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8757149145277266215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127016797424424430}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.488496, y: -3.3791466, z: -16.895456}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265928160620448717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127016797424424430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.833.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8689606818093072390
+  references:
+    version: 2
+    RefIds:
+    - rid: 8689606818093072390
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: b392238f58497694eac0b1e74207703c|Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/ThumbParams/ASLGestures_GeneralVR_Thumbparams.controller
+            objRef: {fileID: 9100000, guid: b392238f58497694eac0b1e74207703c, type: 2}
+          type: 3
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 114596ea6cf9ee24d89df70a95e77105|Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/ThumbParams/Menu_GeneralVR_Thumbparams.asset
+            objRef: {fileID: 11400000, guid: 114596ea6cf9ee24d89df70a95e77105, type: 2}
+          prefix: 
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: f56333bc8fbae704b80841615b0304f6|Packages/com.i5ucc.vrcaslgestures/Controllers/GeneralVR/ThumbParams/Parameters_GeneralVR_Thumbparams.asset
+            objRef: {fileID: 11400000, guid: f56333bc8fbae704b80841615b0304f6, type: 2}
+        smoothedPrms: []
+        globalParams:
+        - LeftThumb
+        - RightThumb
+        - LeftTrigger
+        - RightTrigger
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
+--- !u!114 &2339427119615218594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127016797424424430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.6f1
+  vrcfuryVersion: 1.833.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8689606818093072405
+  references:
+    version: 2
+    RefIds:
+    - rid: 8689606818093072405
+      type: {class: RemoveHandGestures2, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
