@@ -1,4 +1,8 @@
-# <img src="https://user-images.githubusercontent.com/43730681/176920686-1539fd29-3dad-46a8-9f88-f938d8639b54.png" width="32" height="32">  VRC-ASL_Gestures [![Github All Releases](https://img.shields.io/github/downloads/i5ucc/VRC-ASL_Gestures/total.svg)](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest) <a href='https://ko-fi.com/i5ucc' target='_blank'><img height='35' style='border:0px;height:25px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+# <img src="https://user-images.githubusercontent.com/43730681/176920686-1539fd29-3dad-46a8-9f88-f938d8639b54.png" width="32" height="32">  VRC-ASL_Gestures
+[![Github All Releases](https://img.shields.io/github/downloads/i5ucc/VRC-ASL_Gestures/total.svg)](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest) 
+[![GitHub release (latest by date)](https://img.shields.io/github/downloads/i5ucc/VRC-ASL_Gestures/latest/total?label=Latest%20version%20downloads)](https://github.com/I5UCC/VRC-ASL_Gestures/releases/latest)
+<a href='https://ko-fi.com/i5ucc' target='_blank'><img height='35' style='border:0px;height:25px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
 Gesture Controllers for VRChat 3.0 Avatars to be able to do more ASL Handshapes. 
 
 This Repository has different gesture controllers that can be used, dependent on the controller you use:
