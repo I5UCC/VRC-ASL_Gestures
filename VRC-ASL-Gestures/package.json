@@ -1,7 +1,7 @@
 {
   "name": "com.i5ucc.vrcaslgestures",
   "displayName": "VRC-ASL_Gestures",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Gesture AnimationControllers for VRChat 3.0 Avatars to be able to do more ASL Handshapes.",
   "files": [
     "Editor/VRC-ASL-Gestures_Installer.cs",
