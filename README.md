@@ -5,6 +5,15 @@
 
 Gesture Controllers for VRChat 3.0 Avatars to be able to do more ASL Handshapes. 
 
+> [!WARNING]
+> You'll need some familiarity with [Unity Animator](https://docs.unity3d.com/2022.3/Documentation/Manual/class-AnimatorController.html) and [VRChat Playable Layers](https://creators.vrchat.com/avatars/playable-layers/#gesture) to use this beyond the installer script or to troubleshoot any issues.
+>
+> This *shouldn't* break your avatar's facial animations, but depending on your avatar setup, it **might**.
+>
+> Support can be difficult to provide since every avatar is set up differently. Fortunately, most avatars don't have anything in their Gesture layer, as Gesture animations are generally expected to only affect transforms.
+>
+> The included VRCFury setup is not fully non-destructive and may conflict with the default Gesture layer or other Gesture-layer modifications. If that happens, some manual setup or fixes may be required.
+
 This Repository has different gesture controllers that can be used, dependent on the controller you use:
 - Index Controller
   - using [ThumbParams](https://github.com/I5UCC/VRCThumbParamsOSC). (***Recommended***)
@@ -12,7 +21,7 @@ This Repository has different gesture controllers that can be used, dependent on
 - GeneralVR ***(made for Oculus Touch)***
   - ***Experimental****, using [ThumbParams](https://github.com/I5UCC/VRCThumbParamsOSC)
   - without any additional programs ***(Left/Right Hand Dominant versions available)***. (***Recommended***)
- - A combined Controller that combines all of the Options above! ***(Great for public or sold avatars)***
+- A combined Controller that combines all of the Options above! ***(Great for public or sold avatars)***
 
 **Cant support it myself as i don't own touch controllers, PR's welcome!*
  
